@@ -19,7 +19,7 @@ class Lookup extends ActiveRecord{
     public function rules()
     {
         return [
-            [['id_lookup','de_nome','de_tipo','nu_codigo','nu_posicao'],'saf']
+            [['id_lookup','de_nome','de_tipo','nu_codigo','nu_posicao'],'safe']
         ];
     }
     
@@ -37,7 +37,7 @@ class Lookup extends ActiveRecord{
         self::$itens[$tipo] = array();
         $models = parent::find()->where(['de_tipo'=>$tipo])->orderBy(['nu_posicao'=>SORT_ASC])->all();
         foreach ($models as $i){
-            self::$itens[$tipo][$i['id_lookup']] = $i['de_nome']; 
+            self::$itens[$tipo][$i['nu_codigo']] = $i['de_nome']; 
             /**
              * $itens['zona']['1'] = 'zona norte'
              * $itens['zona']['2'] = 'zona sul'
