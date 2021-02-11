@@ -13,6 +13,18 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
     ],
     'components' => [
+        'formatter' => [
+            'class' => 'yii\i18n\Formatter',
+            'dateFormat' => 'dd/MM/yyyy',
+            'decimalSeparator' => ',',
+            'thousandSeparator' => '.',
+            'currencyCode' => 'R$',
+            'locale'		=> 'pt-BR',
+       
+            
+            
+
+       ],
 
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
@@ -54,6 +66,7 @@ $config = [
         
     ],
     'params' => $params,
+    
 ];
 
 if (YII_ENV_DEV) {
