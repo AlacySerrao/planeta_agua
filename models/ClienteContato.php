@@ -14,5 +14,8 @@ class ClienteContato extends ActiveRecord{
             [['de_contato'],'required','message'=>'CAMPO OBRIGATÓRIO'],
         ];
     }
+    public function getTipoContato(){
+        return Lookup::$itens('contato');
+    }
     
 }
