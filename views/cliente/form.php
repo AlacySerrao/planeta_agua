@@ -79,6 +79,7 @@ use yii\widgets\ActiveForm;
     ?>
 </div>  <!-- /. row -->
 
+    <?=$form->field($contato,'ic_tipo_contato')->dropDownList($contato->)->label('TIPO TELEFONE');?>
     <?=$form->field($contato,'de_contato')->textInput()->label('TELEFONE');?>
     <!-- Dados de Endereço -->
     <div class="col-md-8">
@@ -90,8 +91,9 @@ use yii\widgets\ActiveForm;
     <div class = "card-body">
 
     <?=$form->field($endereco,'ic_tipo_endereco')->dropDownList($endereco->tipoEndereco,['prompt'=>'Selecione seu tipo endereço'])->label('TIPO DE ENDEREÇO');?>
-    <?=$form->field($endereco,'no_bairro')->textInput()->label('ENDEREÇO');?>
-    <?=$form->field($endereco,'co_logradouro')->textInput()->label('NUMERO LOGRADOURO');?>
+    <?=$form->field($endereco,'no_logradouro')->textInput()->label('LOGRADOURO');?>
+    <?=$form->field($endereco,'co_logradouro')->textInput()->label('CÓDIGO LOGRADOURO');?>
+    <?=$form->field($endereco,'no_bairro')->textInput()->label('BAIRRO');?>
     <?=$form->field($endereco,'ic_zona')->dropDownList($endereco->listaZonas,['prompt'=>'Selecione sua zona'])->label('ZONA');?>
     <?=$form->field($endereco,'sg_uf')->dropDownList($endereco->listaEstados,['prompt'=>'Escolha Estado'])->label('UF');?>
     <?=$form->field($endereco,'no_cidade')->textInput()->label('CIDADE');?>
