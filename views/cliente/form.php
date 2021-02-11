@@ -4,6 +4,7 @@
  */
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use yii\jui\datePicker;
 
 ?>
 
@@ -23,7 +24,8 @@ use yii\widgets\ActiveForm;
     <div class = "card-body">
 
     <?= $form->field($cliente,'no_cliente')->textInput(['style'=>'width: 100%;text-transform: uppercase;'])->label('Nome');?>
-    <?= $form->field($cliente,'dt_cadastro')->textInput()->label('DATA CADASTRO');?>
+    <?= $form->field($cliente,'dt_cadastro')->widget(datePicker::class)->label('DATA CADASTRO');?>
+    <?=date('d/m/Y',strtotime($cliente->dt_cadastro))?>
     <?= $form->field($cliente,'ic_situacao_cadastral')->dropDownList(['0'=>'Inativo','1'=>'Ativo'])->label('Situação Cadastral');?>
     </div><!-- /. card-body-->
     </div><!-- /. card card-primary -->
@@ -79,7 +81,7 @@ use yii\widgets\ActiveForm;
     ?>
 </div>  <!-- /. row -->
 
-    <?=$form->field($contato,'ic_tipo_contato')->dropDownList($contato->)->label('TIPO TELEFONE');?>
+    <?=$form->field($contato,'ic_tipo_contato')->dropDownList($contato->tipoContato)->label('TIPO TELEFONE');?>
     <?=$form->field($contato,'de_contato')->textInput()->label('TELEFONE');?>
     <!-- Dados de Endereço -->
     <div class="col-md-8">
