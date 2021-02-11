@@ -14,7 +14,7 @@
     
     }
     if($cliente->clienteContato){
-        echo $this->render('_contato',['cliente' => $cliente]);
+        echo $this->render('_contato',['contato' => $cliente->clienteContato]);
     }
     if($cliente->clienteEndereco){
         echo $this->render('_endereco',['cliente'=> $cliente]);

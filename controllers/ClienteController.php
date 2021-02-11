@@ -48,13 +48,13 @@ class ClienteController extends Controller{
                     $endereco->ic_situacao_endereco = 1;
                     $endereco->id_usuario_fk = 1;
                     $endereco->dt_usuario = date('Y-M-D');
-                    //$endereco->save();
+                    $endereco->save();
                     
                 }
                 if(isset($_POST['ClienteContato'])){
                     $contato->attributes($_POST['ClienteContato']);
                     $contato->id_cliente_fk = $model->id_cliente;
-                    //$contato->save();
+                    $contato->save();
                 }
                 return $this->redirect(['visualizar','id'=>$model->id_cliente]);
                 
@@ -94,6 +94,46 @@ class ClienteController extends Controller{
         $juridico = ClienteJuridico::find()->where(['id_cliente_fk'=>$id])->one();
         $contato = ClienteContato::find()->where(['id_cliente_fk'=>$id])->one();
         $endereco = ClienteEndereco::find()->where(['id_cliente_fk'=>$id])->one();
+        if ($model->load(Yii::$app->request->post())){// load(Carrega os dados para o post e salva)
+            if($model->validate()){
+                $model->id_usuario_fk=1; // quem tá cadastrando
+                if(isset($_POST['ClienteFisico'])){
+                    $fisico->load(yii::$app->request->post());
+                    
+                        $model->save(false); // salva os atributos da classe cliente
+                        $fisico->id_cliente_fk = $model->id_cliente;
+                        $fisico->save(false); // salva em cliente fisico
+                        //return $this->redirect(['visualizar','id'=>$model->id_cliente]);
+                    
+                }
+                if(isset($_POST['ClienteJuridico'])){
+                    $juridico->load(yii::$app->request->post());
+                    
+                        $model->save(false);
+                        $juridico->id_cliente_fk = $model->id_cliente;
+                        $juridico->save(false);
+                        //return $this->redirect(['visualizar',$model->id_cliente]);
+                    
+                }
+                if(isset($_POST['ClienteEndereco'])){
+                    $endereco->attributes($_POST['ClienteEndereco']);
+                    $endereco->id_cliente_fk = $model->id_cliente;
+                    $endereco->ic_situacao_endereco = 1;
+                    $endereco->id_usuario_fk = 1;
+                    $endereco->dt_usuario = date('Y-M-D');
+                    $endereco->save();
+                    
+                }
+                if(isset($_POST['ClienteContato'])){
+                    $contato->attributes($_POST['ClienteContato']);
+                    $contato->id_cliente_fk = $model->id_cliente;
+                    $contato->save();
+                }
+                return $this->redirect(['visualizar','id'=>$model->id_cliente]);
+                
+            
+            }
+        }
         if($fisico){
             return $this->render('form',
             ['cliente'=>$model, 
@@ -108,6 +148,7 @@ class ClienteController extends Controller{
             'contato'=>$contato,
             'endereco'=>$endereco]);
         }
+
         
     }
     public function actionDeletar($id){
