@@ -1,0 +1,2402 @@
+a:14:{s:6:"config";s:5330:"a:5:{s:10:"phpVersion";s:6:"7.4.11";s:10:"yiiVersion";s:8:"2.0.39.2";s:11:"application";a:8:{s:3:"yii";s:8:"2.0.39.2";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:5:"pt-BR";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:6:"7.4.11";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:21:{s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:8:"2.0.10.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/yiisoft/yii2-bootstrap/src";}}s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.1.2.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:77:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/yiisoft/yii2-swiftmailer/src";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.1.4.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:69:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/yiisoft/yii2-gii/src";}}s:22:"hail812/yii2-adminlte3";a:3:{s:4:"name";s:22:"hail812/yii2-adminlte3";s:7:"version";s:7:"1.0.8.0";s:5:"alias";a:1:{s:18:"@hail812/adminlte3";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/hail812/yii2-adminlte3/src";}}s:16:"yiisoft/yii2-jui";a:3:{s:4:"name";s:16:"yiisoft/yii2-jui";s:7:"version";s:7:"2.0.7.0";s:5:"alias";a:1:{s:8:"@yii/jui";s:65:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/yiisoft/yii2-jui";}}s:25:"kartik-v/yii2-krajee-base";a:3:{s:4:"name";s:25:"kartik-v/yii2-krajee-base";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:12:"@kartik/base";s:78:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/kartik-v/yii2-krajee-base/src";}}s:33:"kartik-v/yii2-bootstrap4-dropdown";a:3:{s:4:"name";s:33:"kartik-v/yii2-bootstrap4-dropdown";s:7:"version";s:7:"1.0.1.0";s:5:"alias";a:1:{s:19:"@kartik/bs4dropdown";s:86:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/kartik-v/yii2-bootstrap4-dropdown/src";}}s:20:"kartik-v/yii2-dialog";a:3:{s:4:"name";s:20:"kartik-v/yii2-dialog";s:7:"version";s:7:"1.0.5.0";s:5:"alias";a:1:{s:14:"@kartik/dialog";s:73:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/kartik-v/yii2-dialog/src";}}s:18:"kartik-v/yii2-grid";a:3:{s:4:"name";s:18:"kartik-v/yii2-grid";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/grid";s:71:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/kartik-v/yii2-grid/src";}}s:31:"kartik-v/yii2-widget-activeform";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-activeform";s:7:"version";s:7:"1.5.8.0";s:5:"alias";a:1:{s:12:"@kartik/form";s:84:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/kartik-v/yii2-widget-activeform/src";}}s:22:"kartik-v/yii2-editable";a:3:{s:4:"name";s:22:"kartik-v/yii2-editable";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:16:"@kartik/editable";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/kartik-v/yii2-editable/src";}}s:31:"kartik-v/yii2-widget-timepicker";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-timepicker";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/time";s:84:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/kartik-v/yii2-widget-timepicker/src";}}s:19:"kartik-v/yii2-money";a:3:{s:4:"name";s:19:"kartik-v/yii2-money";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:13:"@kartik/money";s:72:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/kartik-v/yii2-money/src";}}s:30:"kartik-v/yii2-widget-touchspin";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-touchspin";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:17:"@kartik/touchspin";s:83:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/kartik-v/yii2-widget-touchspin/src";}}s:23:"kartik-v/yii2-popover-x";a:3:{s:4:"name";s:23:"kartik-v/yii2-popover-x";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:15:"@kartik/popover";s:76:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/kartik-v/yii2-popover-x/src";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:8:"2.1.15.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:71:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/yiisoft/yii2-debug/src";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:71:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/yiisoft/yii2-faker/src";}}s:23:"yiisoft/yii2-bootstrap4";a:3:{s:4:"name";s:23:"yiisoft/yii2-bootstrap4";s:7:"version";s:7:"2.0.9.0";s:5:"alias";a:1:{s:15:"@yii/bootstrap4";s:76:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/yiisoft/yii2-bootstrap4/src";}}s:20:"kartik-v/yii2-tabs-x";a:3:{s:4:"name";s:20:"kartik-v/yii2-tabs-x";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/tabs";s:73:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/kartik-v/yii2-tabs-x/src";}}s:30:"kartik-v/yii2-widget-fileinput";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-fileinput";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/file";s:83:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/kartik-v/yii2-widget-fileinput/src";}}s:27:"kartik-v/yii2-widget-rating";a:3:{s:4:"name";s:27:"kartik-v/yii2-widget-rating";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:14:"@kartik/rating";s:80:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/kartik-v/yii2-widget-rating/src";}}}}";s:7:"request";s:5200:"a:15:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:10:{s:4:"host";s:9:"localhost";s:10:"user-agent";s:78:"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0";s:6:"accept";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:15:"accept-language";s:35:"pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3";s:15:"accept-encoding";s:13:"gzip, deflate";s:7:"referer";s:64:"http://localhost/planeta_agua/planet_water/web/cliente/cadastrar";s:10:"connection";s:10:"keep-alive";s:6:"cookie";s:172:"_csrf=e8fec6bc761de6cfcf52d995aac664310f1094ac3e19b8f414eb9209710358d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CHJpkrgnx9fVnztk3cULlO9jkzQTkZ2E%22%3B%7D";s:25:"upgrade-insecure-requests";s:1:"1";s:13:"cache-control";s:9:"max-age=0";}s:15:"responseHeaders";a:5:{s:12:"X-Powered-By";s:10:"PHP/7.4.11";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";s:11:"X-Debug-Tag";s:13:"6021e67aab2c2";s:16:"X-Debug-Duration";s:5:"4,829";s:12:"X-Debug-Link";s:67:"/planeta_agua/planet_water/web/debug/default/view?tag=6021e67aab2c2";}s:5:"route";s:17:"cliente/cadastrar";s:6:"action";s:52:"app\controllers\ClienteController::actionCadastrar()";s:12:"actionParams";a:1:{s:11:"tipoCliente";s:1:"1";}s:7:"general";a:5:{s:6:"method";s:3:"GET";s:6:"isAjax";b:0;s:6:"isPjax";b:0;s:7:"isFlash";b:0;s:18:"isSecureConnection";b:0;}s:11:"requestBody";a:0:{}s:6:"SERVER";a:52:{s:16:"REDIRECT_MIBDIRS";s:24:"C:/xampp/php/extras/mibs";s:19:"REDIRECT_MYSQL_HOME";s:16:"\xampp\mysql\bin";s:21:"REDIRECT_OPENSSL_CONF";s:31:"C:/xampp/apache/bin/openssl.cnf";s:29:"REDIRECT_PHP_PEAR_SYSCONF_DIR";s:10:"\xampp\php";s:14:"REDIRECT_PHPRC";s:10:"\xampp\php";s:12:"REDIRECT_TMP";s:10:"\xampp\tmp";s:15:"REDIRECT_STATUS";s:3:"200";s:7:"MIBDIRS";s:24:"C:/xampp/php/extras/mibs";s:10:"MYSQL_HOME";s:16:"\xampp\mysql\bin";s:12:"OPENSSL_CONF";s:31:"C:/xampp/apache/bin/openssl.cnf";s:20:"PHP_PEAR_SYSCONF_DIR";s:10:"\xampp\php";s:5:"PHPRC";s:10:"\xampp\php";s:3:"TMP";s:10:"\xampp\tmp";s:9:"HTTP_HOST";s:9:"localhost";s:15:"HTTP_USER_AGENT";s:78:"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:20:"HTTP_ACCEPT_LANGUAGE";s:35:"pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:12:"HTTP_REFERER";s:64:"http://localhost/planeta_agua/planet_water/web/cliente/cadastrar";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:11:"HTTP_COOKIE";s:172:"_csrf=e8fec6bc761de6cfcf52d995aac664310f1094ac3e19b8f414eb9209710358d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CHJpkrgnx9fVnztk3cULlO9jkzQTkZ2E%22%3B%7D";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:4:"PATH";s:676:"C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;C:\Users\Serrao\AppData\Local\Microsoft\WindowsApps;;C:\Users\Serrao\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Serrao\AppData\Roaming\Composer\vendor\bin;C:\Users\Serrao\.dotnet\tools";s:10:"SystemRoot";s:10:"C:\WINDOWS";s:7:"COMSPEC";s:27:"C:\WINDOWS\system32\cmd.exe";s:7:"PATHEXT";s:53:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC";s:6:"WINDIR";s:10:"C:\WINDOWS";s:16:"SERVER_SIGNATURE";s:95:"<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+";s:15:"SERVER_SOFTWARE";s:47:"Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_ADDR";s:9:"127.0.0.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:13:"DOCUMENT_ROOT";s:15:"C:/xampp/htdocs";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:15:"C:/xampp/htdocs";s:12:"SERVER_ADMIN";s:20:"postmaster@localhost";s:15:"SCRIPT_FILENAME";s:55:"C:/xampp/htdocs/planeta_agua/planet_water/web/index.php";s:11:"REMOTE_PORT";s:5:"55212";s:12:"REDIRECT_URL";s:49:"/planeta_agua/planet_water/web/cliente/cadastrar/";s:21:"REDIRECT_QUERY_STRING";s:13:"tipoCliente=1";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:13:"tipoCliente=1";s:11:"REQUEST_URI";s:63:"/planeta_agua/planet_water/web/cliente/cadastrar/?tipoCliente=1";s:11:"SCRIPT_NAME";s:40:"/planeta_agua/planet_water/web/index.php";s:8:"PHP_SELF";s:40:"/planeta_agua/planet_water/web/index.php";s:18:"REQUEST_TIME_FLOAT";d:1612834426.619216;s:12:"REQUEST_TIME";i:1612834426;}s:3:"GET";a:1:{s:11:"tipoCliente";s:1:"1";}s:4:"POST";a:0:{}s:6:"COOKIE";a:1:{s:5:"_csrf";s:130:"e8fec6bc761de6cfcf52d995aac664310f1094ac3e19b8f414eb9209710358d5a:2:{i:0;s:5:"_csrf";i:1;s:32:"CHJpkrgnx9fVnztk3cULlO9jkzQTkZ2E";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:0:{}}";s:6:"router";s:1265:"a:3:{s:8:"messages";a:6:{i:5;a:6:{i:0;a:3:{s:4:"rule";s:3:"gii";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1612834426.711011;i:4;a:0:{}i:5;i:4233552;}i:6;a:6:{i:0;a:3:{s:4:"rule";s:12:"gii/<id:\w+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1612834426.71106;i:4;a:0:{}i:5;i:4234304;}i:7;a:6:{i:0;a:3:{s:4:"rule";s:41:"gii/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1612834426.711095;i:4;a:0:{}i:5;i:4235056;}i:8;a:6:{i:0;a:3:{s:4:"rule";s:5:"debug";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1612834426.711123;i:4;a:0:{}i:5;i:4235808;}i:9;a:6:{i:0;a:3:{s:4:"rule";s:43:"debug/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1612834426.71115;i:4;a:0:{}i:5;i:4236880;}i:10;a:6:{i:0;s:55:"No matching URL rules. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1612834426.711169;i:4;a:0:{}i:5;i:4237256;}}s:5:"route";s:17:"cliente/cadastrar";s:6:"action";s:52:"app\controllers\ClienteController::actionCadastrar()";}";s:3:"log";s:36340:"a:1:{s:8:"messages";a:31:{i:0;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1612834426.671683;i:4;a:0:{}i:5;i:2369312;}i:1;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1612834426.671706;i:4;a:0:{}i:5;i:2370488;}i:2;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1612834426.699872;i:4;a:0:{}i:5;i:3588704;}i:3;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1612834426.706374;i:4;a:0:{}i:5;i:4052120;}i:4;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1612834426.706879;i:4;a:0:{}i:5;i:4076320;}i:11;a:6:{i:0;s:37:"Route requested: 'cliente/cadastrar/'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1612834426.711209;i:4;a:0:{}i:5;i:4237320;}i:12;a:6:{i:0;s:31:"Route to run: cliente/cadastrar";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1612834426.715739;i:4;a:0:{}i:5;i:4428712;}i:13;a:6:{i:0;s:68:"Running action: app\controllers\ClienteController::actionCadastrar()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1612834426.716016;i:4;a:0:{}i:5;i:4436792;}i:14;a:6:{i:0;s:85:"Rendering view file: C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1612834426.729361;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5105104;}i:15;a:6:{i:0;s:96:"Opening DB connection: pgsql:host=frequencia.postgresql.dbaas.com.br;port=5432;dbname=frequencia";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1612834426.756686;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:21;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6180104;}i:18;a:6:{i:0;s:2670:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_cliente'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1612834427.378579;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:21;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6317392;}i:21;a:6:{i:0;s:878:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_cliente'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1612834427.655522;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:21;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6360488;}i:24;a:6:{i:0;s:2679:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_cliente_juridico'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1612834427.926211;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:67;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6721408;}i:27;a:6:{i:0;s:887:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_cliente_juridico'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1612834428.193337;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:67;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6730048;}i:30;a:6:{i:0;s:2678:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_cliente_contato'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1612834428.465097;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:80;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6742296;}i:33;a:6:{i:0;s:886:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_cliente_contato'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1612834428.782239;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:80;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6752688;}i:36;a:6:{i:0;s:2679:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_cliente_endereco'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1612834429.036566;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:90;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6760152;}i:39;a:6:{i:0;s:887:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_cliente_endereco'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1612834429.305272;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:90;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6775248;}i:42;a:6:{i:0;s:74:"SELECT * FROM "tb_lookup" WHERE "de_tipo"='endereco' ORDER BY "nu_posicao"";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1612834429.615356;i:4;a:3:{i:0;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:38;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:28;s:8:"function";s:11:"buscarItens";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:33;s:8:"function";s:5:"items";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}}i:5;i:7508936;}i:45;a:6:{i:0;s:2669:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_lookup'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1612834429.869087;i:4;a:3:{i:0;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:38;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:28;s:8:"function";s:11:"buscarItens";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:33;s:8:"function";s:5:"items";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}}i:5;i:7522224;}i:48;a:6:{i:0;s:877:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_lookup'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1612834430.136013;i:4;a:3:{i:0;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:38;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:28;s:8:"function";s:11:"buscarItens";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:33;s:8:"function";s:5:"items";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}}i:5;i:7531952;}i:51;a:6:{i:0;s:70:"SELECT * FROM "tb_lookup" WHERE "de_tipo"='zona' ORDER BY "nu_posicao"";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1612834430.394317;i:4;a:3:{i:0;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:38;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:28;s:8:"function";s:11:"buscarItens";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:30;s:8:"function";s:5:"items";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}}i:5;i:7547296;}i:54;a:6:{i:0;s:38:"SELECT * FROM "tb_uf" ORDER BY "de_uf"";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1612834430.649383;i:4;a:3:{i:0;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:26;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:94;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7573200;}i:57;a:6:{i:0;s:2665:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_uf'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1612834430.900749;i:4;a:3:{i:0;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:26;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:94;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7599480;}i:60;a:6:{i:0;s:873:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_uf'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1612834431.164577;i:4;a:3:{i:0;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:26;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:94;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7607792;}i:63;a:6:{i:0;s:85:"Rendering view file: C:\xampp\htdocs\planeta_agua\planet_water\views\layouts\main.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1612834431.428449;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7606504;}i:64;a:6:{i:0;s:87:"Rendering view file: C:\xampp\htdocs\planeta_agua\planet_water\views\layouts\navbar.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1612834431.446523;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\layouts\main.php";s:4:"line";i:35;s:8:"function";s:6:"render";s:5:"class";s:13:"yii\base\View";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7683512;}i:65;a:6:{i:0;s:88:"Rendering view file: C:\xampp\htdocs\planeta_agua\planet_water\views\layouts\sidebar.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1612834431.448374;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\layouts\main.php";s:4:"line";i:39;s:8:"function";s:6:"render";s:5:"class";s:13:"yii\base\View";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7703144;}i:66;a:6:{i:0;s:88:"Rendering view file: C:\xampp\htdocs\planeta_agua\planet_water\views\layouts\content.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1612834431.455947;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\layouts\main.php";s:4:"line";i:42;s:8:"function";s:6:"render";s:5:"class";s:13:"yii\base\View";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7839224;}i:67;a:6:{i:0;s:96:"Rendering view file: C:\xampp\htdocs\planeta_agua\planet_water\views\layouts\control-sidebar.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1612834431.468406;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\layouts\main.php";s:4:"line";i:46;s:8:"function";s:6:"render";s:5:"class";s:13:"yii\base\View";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7929528;}i:68;a:6:{i:0;s:87:"Rendering view file: C:\xampp\htdocs\planeta_agua\planet_water\views\layouts\footer.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1612834431.469798;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\layouts\main.php";s:4:"line";i:50;s:8:"function";s:6:"render";s:5:"class";s:13:"yii\base\View";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7932360;}}}";s:9:"profiling";s:62555:"a:3:{s:6:"memory";i:8156904;s:4:"time";d:4.8332719802856445;s:8:"messages";a:32:{i:16;a:6:{i:0;s:96:"Opening DB connection: pgsql:host=frequencia.postgresql.dbaas.com.br;port=5432;dbname=frequencia";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1612834426.756737;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:21;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6181608;}i:17;a:6:{i:0;s:96:"Opening DB connection: pgsql:host=frequencia.postgresql.dbaas.com.br;port=5432;dbname=frequencia";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1612834427.369918;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:21;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6184592;}i:19;a:6:{i:0;s:2670:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_cliente'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834427.378999;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:21;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6328560;}i:20;a:6:{i:0;s:2670:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_cliente'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834427.570971;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:21;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6342624;}i:22;a:6:{i:0;s:878:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_cliente'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834427.655632;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:21;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6365168;}i:23;a:6:{i:0;s:878:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_cliente'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834427.82647;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:21;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6368032;}i:25;a:6:{i:0;s:2679:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_cliente_juridico'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834427.926388;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:67;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6732488;}i:26;a:6:{i:0;s:2679:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_cliente_juridico'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834428.109061;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:67;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6744976;}i:28;a:6:{i:0;s:887:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_cliente_juridico'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834428.193462;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:67;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6734728;}i:29;a:6:{i:0;s:887:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_cliente_juridico'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834428.367615;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:67;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6737584;}i:31;a:6:{i:0;s:2678:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_cliente_contato'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834428.46541;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:80;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6753376;}i:32;a:6:{i:0;s:2678:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_cliente_contato'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834428.694199;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:80;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6766024;}i:34;a:6:{i:0;s:886:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_cliente_contato'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834428.782639;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:80;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6757368;}i:35;a:6:{i:0;s:886:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_cliente_contato'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834428.953102;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:80;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6760224;}i:37;a:6:{i:0;s:2679:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_cliente_endereco'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834429.036758;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:90;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6771232;}i:38;a:6:{i:0;s:2679:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_cliente_endereco'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834429.218552;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:90;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6801728;}i:40;a:6:{i:0;s:887:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_cliente_endereco'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834429.305453;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:90;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6779928;}i:41;a:6:{i:0;s:887:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_cliente_endereco'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834429.492339;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:90;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6782784;}i:43;a:6:{i:0;s:74:"SELECT * FROM "tb_lookup" WHERE "de_tipo"='endereco' ORDER BY "nu_posicao"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834429.615403;i:4;a:3:{i:0;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:38;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:28;s:8:"function";s:11:"buscarItens";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:33;s:8:"function";s:5:"items";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}}i:5;i:7512232;}i:44;a:6:{i:0;s:74:"SELECT * FROM "tb_lookup" WHERE "de_tipo"='endereco' ORDER BY "nu_posicao"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834429.786453;i:4;a:3:{i:0;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:38;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:28;s:8:"function";s:11:"buscarItens";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:33;s:8:"function";s:5:"items";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}}i:5;i:7516264;}i:46;a:6:{i:0;s:2669:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_lookup'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834429.869201;i:4;a:3:{i:0;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:38;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:28;s:8:"function";s:11:"buscarItens";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:33;s:8:"function";s:5:"items";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}}i:5;i:7533680;}i:47;a:6:{i:0;s:2669:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_lookup'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834430.054313;i:4;a:3:{i:0;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:38;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:28;s:8:"function";s:11:"buscarItens";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:33;s:8:"function";s:5:"items";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}}i:5;i:7545048;}i:49;a:6:{i:0;s:877:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_lookup'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834430.136202;i:4;a:3:{i:0;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:38;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:28;s:8:"function";s:11:"buscarItens";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:33;s:8:"function";s:5:"items";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}}i:5;i:7537008;}i:50;a:6:{i:0;s:877:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_lookup'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834430.308588;i:4;a:3:{i:0;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:38;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:28;s:8:"function";s:11:"buscarItens";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:33;s:8:"function";s:5:"items";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}}i:5;i:7539328;}i:52;a:6:{i:0;s:70:"SELECT * FROM "tb_lookup" WHERE "de_tipo"='zona' ORDER BY "nu_posicao"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834430.39437;i:4;a:3:{i:0;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:38;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:28;s:8:"function";s:11:"buscarItens";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:30;s:8:"function";s:5:"items";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}}i:5;i:7550592;}i:53;a:6:{i:0;s:70:"SELECT * FROM "tb_lookup" WHERE "de_tipo"='zona' ORDER BY "nu_posicao"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834430.563399;i:4;a:3:{i:0;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:38;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:28;s:8:"function";s:11:"buscarItens";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:30;s:8:"function";s:5:"items";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}}i:5;i:7556376;}i:55;a:6:{i:0;s:38:"SELECT * FROM "tb_uf" ORDER BY "de_uf"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834430.649421;i:4;a:3:{i:0;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:26;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:94;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7575584;}i:56;a:6:{i:0;s:38:"SELECT * FROM "tb_uf" ORDER BY "de_uf"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834430.818983;i:4;a:3:{i:0;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:26;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:94;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7591224;}i:58;a:6:{i:0;s:2665:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_uf'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834430.900874;i:4;a:3:{i:0;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:26;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:94;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7610936;}i:59;a:6:{i:0;s:2665:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_uf'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834431.078038;i:4;a:3:{i:0;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:26;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:94;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7617616;}i:61;a:6:{i:0;s:873:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_uf'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834431.164766;i:4;a:3:{i:0;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:26;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:94;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7612848;}i:62;a:6:{i:0;s:873:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_uf'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834431.33285;i:4;a:3:{i:0;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:26;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:94;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7615168;}}}";s:2:"db";s:61258:"a:1:{s:8:"messages";a:30:{i:19;a:6:{i:0;s:2670:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_cliente'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834427.378999;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:21;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6328560;}i:20;a:6:{i:0;s:2670:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_cliente'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834427.570971;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:21;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6342624;}i:22;a:6:{i:0;s:878:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_cliente'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834427.655632;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:21;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6365168;}i:23;a:6:{i:0;s:878:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_cliente'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834427.82647;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:21;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6368032;}i:25;a:6:{i:0;s:2679:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_cliente_juridico'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834427.926388;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:67;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6732488;}i:26;a:6:{i:0;s:2679:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_cliente_juridico'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834428.109061;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:67;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6744976;}i:28;a:6:{i:0;s:887:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_cliente_juridico'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834428.193462;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:67;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6734728;}i:29;a:6:{i:0;s:887:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_cliente_juridico'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834428.367615;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:67;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6737584;}i:31;a:6:{i:0;s:2678:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_cliente_contato'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834428.46541;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:80;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6753376;}i:32;a:6:{i:0;s:2678:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_cliente_contato'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834428.694199;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:80;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6766024;}i:34;a:6:{i:0;s:886:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_cliente_contato'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834428.782639;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:80;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6757368;}i:35;a:6:{i:0;s:886:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_cliente_contato'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834428.953102;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:80;s:8:"function";s:9:"textInput";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6760224;}i:37;a:6:{i:0;s:2679:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_cliente_endereco'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834429.036758;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:90;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6771232;}i:38;a:6:{i:0;s:2679:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_cliente_endereco'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834429.218552;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:90;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6801728;}i:40;a:6:{i:0;s:887:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_cliente_endereco'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834429.305453;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:90;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6779928;}i:41;a:6:{i:0;s:887:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_cliente_endereco'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834429.492339;i:4;a:2:{i:0;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:90;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6782784;}i:43;a:6:{i:0;s:74:"SELECT * FROM "tb_lookup" WHERE "de_tipo"='endereco' ORDER BY "nu_posicao"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834429.615403;i:4;a:3:{i:0;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:38;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:28;s:8:"function";s:11:"buscarItens";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:33;s:8:"function";s:5:"items";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}}i:5;i:7512232;}i:44;a:6:{i:0;s:74:"SELECT * FROM "tb_lookup" WHERE "de_tipo"='endereco' ORDER BY "nu_posicao"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834429.786453;i:4;a:3:{i:0;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:38;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:28;s:8:"function";s:11:"buscarItens";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:33;s:8:"function";s:5:"items";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}}i:5;i:7516264;}i:46;a:6:{i:0;s:2669:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_lookup'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834429.869201;i:4;a:3:{i:0;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:38;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:28;s:8:"function";s:11:"buscarItens";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:33;s:8:"function";s:5:"items";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}}i:5;i:7533680;}i:47;a:6:{i:0;s:2669:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_lookup'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834430.054313;i:4;a:3:{i:0;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:38;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:28;s:8:"function";s:11:"buscarItens";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:33;s:8:"function";s:5:"items";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}}i:5;i:7545048;}i:49;a:6:{i:0;s:877:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_lookup'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834430.136202;i:4;a:3:{i:0;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:38;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:28;s:8:"function";s:11:"buscarItens";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:33;s:8:"function";s:5:"items";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}}i:5;i:7537008;}i:50;a:6:{i:0;s:877:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_lookup'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834430.308588;i:4;a:3:{i:0;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:38;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:28;s:8:"function";s:11:"buscarItens";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:33;s:8:"function";s:5:"items";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}}i:5;i:7539328;}i:52;a:6:{i:0;s:70:"SELECT * FROM "tb_lookup" WHERE "de_tipo"='zona' ORDER BY "nu_posicao"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834430.39437;i:4;a:3:{i:0;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:38;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:28;s:8:"function";s:11:"buscarItens";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:30;s:8:"function";s:5:"items";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}}i:5;i:7550592;}i:53;a:6:{i:0;s:70:"SELECT * FROM "tb_lookup" WHERE "de_tipo"='zona' ORDER BY "nu_posicao"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834430.563399;i:4;a:3:{i:0;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:38;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:59:"C:\xampp\htdocs\planeta_agua\planet_water\models\Lookup.php";s:4:"line";i:28;s:8:"function";s:11:"buscarItens";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:30;s:8:"function";s:5:"items";s:5:"class";s:17:"app\models\Lookup";s:4:"type";s:2:"::";}}i:5;i:7556376;}i:55;a:6:{i:0;s:38:"SELECT * FROM "tb_uf" ORDER BY "de_uf"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834430.649421;i:4;a:3:{i:0;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:26;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:94;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7575584;}i:56;a:6:{i:0;s:38:"SELECT * FROM "tb_uf" ORDER BY "de_uf"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834430.818983;i:4;a:3:{i:0;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:26;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:94;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7591224;}i:58;a:6:{i:0;s:2665:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_uf'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834430.900874;i:4;a:3:{i:0;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:26;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:94;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7610936;}i:59;a:6:{i:0;s:2665:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'tb_uf'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834431.078038;i:4;a:3:{i:0;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:26;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:94;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7617616;}i:61;a:6:{i:0;s:873:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_uf'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1612834431.164766;i:4;a:3:{i:0;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:26;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:94;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7612848;}i:62;a:6:{i:0;s:873:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='tb_uf'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1612834431.33285;i:4;a:3:{i:0;a:5:{s:4:"file";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\models\ClienteEndereco.php";s:4:"line";i:26;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:64:"C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\form.php";s:4:"line";i:94;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php";s:4:"line";i:70;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7615168;}}}";s:5:"event";s:20030:"a:119:{i:0;a:5:{s:4:"time";d:1612834426.709058;s:4:"name";s:13:"beforeRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:1;a:5:{s:4:"time";d:1612834426.715956;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:2;a:5:{s:4:"time";d:1612834426.715974;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:33:"app\controllers\ClienteController";}i:3;a:5:{s:4:"time";d:1612834426.723076;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"app\models\Cliente";}i:4;a:5:{s:4:"time";d:1612834426.723462;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\ClienteFisico";}i:5;a:5:{s:4:"time";d:1612834426.723806;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:26:"app\models\ClienteJuridico";}i:6;a:5:{s:4:"time";d:1612834426.7241;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"app\models\ClienteContato";}i:7;a:5:{s:4:"time";d:1612834426.724609;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:26:"app\models\ClienteEndereco";}i:8;a:5:{s:4:"time";d:1612834426.729343;s:4:"name";s:12:"beforeRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:9;a:5:{s:4:"time";d:1612834426.732272;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\widgets\ActiveForm";}i:10;a:5:{s:4:"time";d:1612834427.369851;s:4:"name";s:9:"afterOpen";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\db\Connection";}i:11;a:5:{s:4:"time";d:1612834429.603519;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:12;a:5:{s:4:"time";d:1612834429.868917;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\models\Lookup";}i:13;a:5:{s:4:"time";d:1612834430.392719;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\models\Lookup";}i:14;a:5:{s:4:"time";d:1612834430.392786;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\models\Lookup";}i:15;a:5:{s:4:"time";d:1612834430.392848;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\models\Lookup";}i:16;a:5:{s:4:"time";d:1612834430.392873;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\models\Lookup";}i:17;a:5:{s:4:"time";d:1612834430.392893;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\models\Lookup";}i:18;a:5:{s:4:"time";d:1612834430.394231;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:19;a:5:{s:4:"time";d:1612834430.64817;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\models\Lookup";}i:20;a:5:{s:4:"time";d:1612834430.648221;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\models\Lookup";}i:21;a:5:{s:4:"time";d:1612834430.648247;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\models\Lookup";}i:22;a:5:{s:4:"time";d:1612834430.64827;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\models\Lookup";}i:23;a:5:{s:4:"time";d:1612834430.648291;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\models\Lookup";}i:24;a:5:{s:4:"time";d:1612834430.648312;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\models\Lookup";}i:25;a:5:{s:4:"time";d:1612834430.648332;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\models\Lookup";}i:26;a:5:{s:4:"time";d:1612834430.648353;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\models\Lookup";}i:27;a:5:{s:4:"time";d:1612834430.648361;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\models\Lookup";}i:28;a:5:{s:4:"time";d:1612834430.648368;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\models\Lookup";}i:29;a:5:{s:4:"time";d:1612834430.648376;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\models\Lookup";}i:30;a:5:{s:4:"time";d:1612834430.648384;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\models\Lookup";}i:31;a:5:{s:4:"time";d:1612834430.648392;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\models\Lookup";}i:32;a:5:{s:4:"time";d:1612834430.648399;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\models\Lookup";}i:33;a:5:{s:4:"time";d:1612834430.649303;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:34;a:5:{s:4:"time";d:1612834430.900591;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:35;a:5:{s:4:"time";d:1612834431.41441;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:36;a:5:{s:4:"time";d:1612834431.414565;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:37;a:5:{s:4:"time";d:1612834431.414621;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:38;a:5:{s:4:"time";d:1612834431.414664;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:39;a:5:{s:4:"time";d:1612834431.414704;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:40;a:5:{s:4:"time";d:1612834431.414744;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:41;a:5:{s:4:"time";d:1612834431.414784;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:42;a:5:{s:4:"time";d:1612834431.414826;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:43;a:5:{s:4:"time";d:1612834431.414869;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:44;a:5:{s:4:"time";d:1612834431.414994;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:45;a:5:{s:4:"time";d:1612834431.415121;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:46;a:5:{s:4:"time";d:1612834431.415245;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:47;a:5:{s:4:"time";d:1612834431.415289;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:48;a:5:{s:4:"time";d:1612834431.415331;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:49;a:5:{s:4:"time";d:1612834431.415371;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:50;a:5:{s:4:"time";d:1612834431.415443;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:51;a:5:{s:4:"time";d:1612834431.415706;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:52;a:5:{s:4:"time";d:1612834431.415965;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:53;a:5:{s:4:"time";d:1612834431.416108;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:54;a:5:{s:4:"time";d:1612834431.416193;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:55;a:5:{s:4:"time";d:1612834431.416272;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:56;a:5:{s:4:"time";d:1612834431.416351;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:57;a:5:{s:4:"time";d:1612834431.41643;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:58;a:5:{s:4:"time";d:1612834431.41651;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:59;a:5:{s:4:"time";d:1612834431.416589;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:60;a:5:{s:4:"time";d:1612834431.416672;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:61;a:5:{s:4:"time";d:1612834431.416754;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:62;a:5:{s:4:"time";d:1612834431.416795;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:63;a:5:{s:4:"time";d:1612834431.416834;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:64;a:5:{s:4:"time";d:1612834431.416874;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:65;a:5:{s:4:"time";d:1612834431.416916;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:66;a:5:{s:4:"time";d:1612834431.416956;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:67;a:5:{s:4:"time";d:1612834431.416995;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:68;a:5:{s:4:"time";d:1612834431.417035;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:69;a:5:{s:4:"time";d:1612834431.417075;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:70;a:5:{s:4:"time";d:1612834431.417114;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:71;a:5:{s:4:"time";d:1612834431.417154;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:72;a:5:{s:4:"time";d:1612834431.417194;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:73;a:5:{s:4:"time";d:1612834431.417234;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:74;a:5:{s:4:"time";d:1612834431.417273;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:75;a:5:{s:4:"time";d:1612834431.417312;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:76;a:5:{s:4:"time";d:1612834431.417351;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:77;a:5:{s:4:"time";d:1612834431.41739;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:78;a:5:{s:4:"time";d:1612834431.41743;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:79;a:5:{s:4:"time";d:1612834431.417469;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:80;a:5:{s:4:"time";d:1612834431.417508;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:81;a:5:{s:4:"time";d:1612834431.417547;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:82;a:5:{s:4:"time";d:1612834431.417587;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:83;a:5:{s:4:"time";d:1612834431.417638;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:84;a:5:{s:4:"time";d:1612834431.417656;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:85;a:5:{s:4:"time";d:1612834431.417674;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:86;a:5:{s:4:"time";d:1612834431.417692;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:87;a:5:{s:4:"time";d:1612834431.417709;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\models\Uf";}i:88;a:5:{s:4:"time";d:1612834431.42098;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\widgets\ActiveForm";}i:89;a:5:{s:4:"time";d:1612834431.426163;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\widgets\ActiveForm";}i:90;a:5:{s:4:"time";d:1612834431.426351;s:4:"name";s:11:"afterRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:91;a:5:{s:4:"time";d:1612834431.428423;s:4:"name";s:12:"beforeRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:92;a:5:{s:4:"time";d:1612834431.445479;s:4:"name";s:9:"beginPage";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:93;a:5:{s:4:"time";d:1612834431.445671;s:4:"name";s:9:"beginBody";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:94;a:5:{s:4:"time";d:1612834431.446505;s:4:"name";s:12:"beforeRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:95;a:5:{s:4:"time";d:1612834431.44755;s:4:"name";s:11:"afterRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:96;a:5:{s:4:"time";d:1612834431.448359;s:4:"name";s:12:"beforeRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:97;a:5:{s:4:"time";d:1612834431.453504;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:30:"hail812\adminlte3\widgets\Menu";}i:98;a:5:{s:4:"time";d:1612834431.453543;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:30:"hail812\adminlte3\widgets\Menu";}i:99;a:5:{s:4:"time";d:1612834431.454844;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:30:"hail812\adminlte3\widgets\Menu";}i:100;a:5:{s:4:"time";d:1612834431.454929;s:4:"name";s:11:"afterRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:101;a:5:{s:4:"time";d:1612834431.45593;s:4:"name";s:12:"beforeRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:102;a:5:{s:4:"time";d:1612834431.461913;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:26:"yii\bootstrap4\Breadcrumbs";}i:103;a:5:{s:4:"time";d:1612834431.466387;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:26:"yii\bootstrap4\Breadcrumbs";}i:104;a:5:{s:4:"time";d:1612834431.466506;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:26:"yii\bootstrap4\Breadcrumbs";}i:105;a:5:{s:4:"time";d:1612834431.466723;s:4:"name";s:11:"afterRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:106;a:5:{s:4:"time";d:1612834431.46836;s:4:"name";s:12:"beforeRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:107;a:5:{s:4:"time";d:1612834431.468988;s:4:"name";s:11:"afterRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:108;a:5:{s:4:"time";d:1612834431.469783;s:4:"name";s:12:"beforeRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:109;a:5:{s:4:"time";d:1612834431.470249;s:4:"name";s:11:"afterRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:110;a:5:{s:4:"time";d:1612834431.476532;s:4:"name";s:7:"endBody";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:111;a:5:{s:4:"time";d:1612834431.477473;s:4:"name";s:7:"endPage";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:112;a:5:{s:4:"time";d:1612834431.478268;s:4:"name";s:11:"afterRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:113;a:5:{s:4:"time";d:1612834431.478303;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:33:"app\controllers\ClienteController";}i:114;a:5:{s:4:"time";d:1612834431.478318;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:115;a:5:{s:4:"time";d:1612834431.478335;s:4:"name";s:12:"afterRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:116;a:5:{s:4:"time";d:1612834431.478347;s:4:"name";s:10:"beforeSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:117;a:5:{s:4:"time";d:1612834431.479161;s:4:"name";s:12:"afterPrepare";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:118;a:5:{s:4:"time";d:1612834431.479448;s:4:"name";s:9:"afterSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}}";s:6:"assets";s:4714:"a:10:{s:30:"yii\validators\ValidationAsset";a:9:{s:10:"sourcePath";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2/assets";s:2:"js";a:1:{i:0;s:17:"yii.validation.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:61:"C:\xampp\htdocs\planeta_agua\planet_water\web\assets\2ee1c50b";s:7:"baseUrl";s:46:"/planeta_agua/planet_water/web/assets/2ee1c50b";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:16:"yii\web\YiiAsset";a:9:{s:10:"sourcePath";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2/assets";s:2:"js";a:1:{i:0;s:6:"yii.js";}s:7:"depends";a:1:{i:0;s:19:"yii\web\JqueryAsset";}s:8:"basePath";s:61:"C:\xampp\htdocs\planeta_agua\planet_water\web\assets\2ee1c50b";s:7:"baseUrl";s:46:"/planeta_agua/planet_water/web/assets/2ee1c50b";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:19:"yii\web\JqueryAsset";a:9:{s:10:"sourcePath";s:72:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/bower-asset/jquery/dist";s:2:"js";a:1:{i:0;s:9:"jquery.js";}s:8:"basePath";s:61:"C:\xampp\htdocs\planeta_agua\planet_water\web\assets\53e3fa1e";s:7:"baseUrl";s:46:"/planeta_agua/planet_water/web/assets/53e3fa1e";s:7:"depends";a:0:{}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:27:"yii\widgets\ActiveFormAsset";a:9:{s:10:"sourcePath";s:68:"C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2/assets";s:2:"js";a:1:{i:0;s:17:"yii.activeForm.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:61:"C:\xampp\htdocs\planeta_agua\planet_water\web\assets\2ee1c50b";s:7:"baseUrl";s:46:"/planeta_agua/planet_water/web/assets/2ee1c50b";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:41:"hail812\adminlte3\assets\FontAwesomeAsset";a:9:{s:10:"sourcePath";s:96:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/almasaeed2010/adminlte/plugins/fontawesome-free";s:3:"css";a:1:{i:0;s:15:"css/all.min.css";}s:8:"basePath";s:61:"C:\xampp\htdocs\planeta_agua\planet_water\web\assets\ea28c79e";s:7:"baseUrl";s:46:"/planeta_agua/planet_water/web/assets/ea28c79e";s:7:"depends";a:0:{}s:2:"js";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:38:"hail812\adminlte3\assets\AdminLteAsset";a:9:{s:10:"sourcePath";s:76:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/almasaeed2010/adminlte/dist";s:3:"css";a:1:{i:0;s:20:"css/adminlte.min.css";}s:2:"js";a:2:{i:0;s:18:"js/adminlte.min.js";i:1;s:10:"js/main.js";}s:7:"depends";a:2:{i:0;s:34:"hail812\adminlte3\assets\BaseAsset";i:1;s:36:"hail812\adminlte3\assets\PluginAsset";}s:8:"basePath";s:61:"C:\xampp\htdocs\planeta_agua\planet_water\web\assets\a251f09a";s:7:"baseUrl";s:46:"/planeta_agua/planet_water/web/assets/a251f09a";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:34:"hail812\adminlte3\assets\BaseAsset";a:9:{s:7:"depends";a:3:{i:0;s:16:"yii\web\YiiAsset";i:1;s:29:"yii\bootstrap4\BootstrapAsset";i:2;s:35:"yii\bootstrap4\BootstrapPluginAsset";}s:10:"sourcePath";N;s:8:"basePath";N;s:7:"baseUrl";N;s:2:"js";a:0:{}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:29:"yii\bootstrap4\BootstrapAsset";a:9:{s:10:"sourcePath";s:73:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/npm-asset/bootstrap/dist";s:3:"css";a:1:{i:0;s:17:"css/bootstrap.css";}s:8:"basePath";s:61:"C:\xampp\htdocs\planeta_agua\planet_water\web\assets\d0dcfdcf";s:7:"baseUrl";s:46:"/planeta_agua/planet_water/web/assets/d0dcfdcf";s:7:"depends";a:0:{}s:2:"js";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:35:"yii\bootstrap4\BootstrapPluginAsset";a:9:{s:10:"sourcePath";s:73:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/npm-asset/bootstrap/dist";s:2:"js";a:1:{i:0;s:22:"js/bootstrap.bundle.js";}s:7:"depends";a:2:{i:0;s:19:"yii\web\JqueryAsset";i:1;s:29:"yii\bootstrap4\BootstrapAsset";}s:8:"basePath";s:61:"C:\xampp\htdocs\planeta_agua\planet_water\web\assets\d0dcfdcf";s:7:"baseUrl";s:46:"/planeta_agua/planet_water/web/assets/d0dcfdcf";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:36:"hail812\adminlte3\assets\PluginAsset";a:9:{s:10:"sourcePath";s:79:"C:\xampp\htdocs\planeta_agua\planet_water\vendor/almasaeed2010/adminlte/plugins";s:7:"depends";a:1:{i:0;s:34:"hail812\adminlte3\assets\BaseAsset";}s:8:"basePath";s:61:"C:\xampp\htdocs\planeta_agua\planet_water\web\assets\a0d8b110";s:7:"baseUrl";s:46:"/planeta_agua/planet_water/web/assets/a0d8b110";s:2:"js";a:0:{}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}}";s:4:"mail";s:6:"a:0:{}";s:8:"timeline";s:91:"a:3:{s:5:"start";d:1612834426.651053;s:3:"end";d:1612834431.486595;s:6:"memory";i:8156904;}";s:4:"user";s:2:"N;";s:4:"dump";s:6:"a:0:{}";s:7:"summary";a:12:{s:3:"tag";s:13:"6021e67aab2c2";s:3:"url";s:79:"http://localhost/planeta_agua/planet_water/web/cliente/cadastrar/?tipoCliente=1";s:4:"ajax";i:0;s:6:"method";s:3:"GET";s:2:"ip";s:9:"127.0.0.1";s:4:"time";d:1612834426.619216;s:10:"statusCode";i:200;s:8:"sqlCount";i:15;s:9:"mailCount";i:0;s:9:"mailFiles";a:0:{}s:10:"peakMemory";i:8156904;s:14:"processingTime";d:4.8332719802856445;}s:10:"exceptions";a:0:{}}

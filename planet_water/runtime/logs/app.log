@@ -1,0 +1,1016 @@
+2021-02-09 02:46:52 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "img/user2-160x160.jpg". in C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('img/user2-160x1...', Array)
+#1 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\planeta_agua\planet_water\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página não encontrada. in C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\planeta_agua\planet_water\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2021-02-09 02:46:52 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'e8fec6bc761de6cfcf52d995aac664310f1094ac3e19b8f414eb9209710358d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CHJpkrgnx9fVnztk3cULlO9jkzQTkZ2E\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/planeta_agua/planet_water/web/cliente/atualizar/?id=1'
+    'HTTP_COOKIE' => '_csrf=e8fec6bc761de6cfcf52d995aac664310f1094ac3e19b8f414eb9209710358d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CHJpkrgnx9fVnztk3cULlO9jkzQTkZ2E%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\PuTTY\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Serrao\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\Serrao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Serrao\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Serrao\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/planeta_agua/planet_water/web/index.php'
+    'REMOTE_PORT' => '55387'
+    'REDIRECT_URL' => '/planeta_agua/planet_water/web/img/user2-160x160.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/planeta_agua/planet_water/web/img/user2-160x160.jpg'
+    'SCRIPT_NAME' => '/planeta_agua/planet_water/web/index.php'
+    'PHP_SELF' => '/planeta_agua/planet_water/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1612835212.1443
+    'REQUEST_TIME' => 1612835212
+]
+2021-02-10 15:45:15 [127.0.0.1][-][ba3j5stfcfqttkfbbffdnlv7hn][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: cliente/principal in C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('principal', Array)
+#1 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('cliente/princip...', Array)
+#2 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\planeta_agua\planet_water\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Página não encontrada. in C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\planeta_agua\planet_water\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2021-02-10 15:45:13 [127.0.0.1][-][ba3j5stfcfqttkfbbffdnlv7hn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '458c503957877c8dd44a01ec3fd30fc18797c4431fcb37c744772f8f8e2e3b22a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"yu5-VJUsWZp22iJqfBAcLzUUiCXCk4he\";}'
+    'PHPSESSID' => 'ba3j5stfcfqttkfbbffdnlv7hn'
+    '_identity' => '19f5f85e17fb19e6fa36c87044a87f52fe301aa212f537ae030790b159460a73a:2:{i:0;s:9:\"_identity\";i:1;s:19:\"[null,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost/protaurus/'
+    '__id' => null
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=458c503957877c8dd44a01ec3fd30fc18797c4431fcb37c744772f8f8e2e3b22a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22yu5-VJUsWZp22iJqfBAcLzUUiCXCk4he%22%3B%7D; PHPSESSID=ba3j5stfcfqttkfbbffdnlv7hn; _identity=19f5f85e17fb19e6fa36c87044a87f52fe301aa212f537ae030790b159460a73a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A19%3A%22%5Bnull%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\PuTTY\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Serrao\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Serrao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Serrao\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Serrao\\.dotnet\\tools;C:\\Users\\Serrao\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/planeta_agua/planet_water/web/index.php'
+    'REMOTE_PORT' => '60731'
+    'REDIRECT_URL' => '/planeta_agua/planet_water/web/cliente/principal'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/planeta_agua/planet_water/web/cliente/principal'
+    'SCRIPT_NAME' => '/planeta_agua/planet_water/web/index.php'
+    'PHP_SELF' => '/planeta_agua/planet_water/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1612968313.5071
+    'REQUEST_TIME' => 1612968313
+]
+2021-02-10 15:45:29 [127.0.0.1][-][ba3j5stfcfqttkfbbffdnlv7hn][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: cliente/consultat in C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('consultat', Array)
+#1 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('cliente/consult...', Array)
+#2 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\planeta_agua\planet_water\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Página não encontrada. in C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\planeta_agua\planet_water\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2021-02-10 15:45:29 [127.0.0.1][-][ba3j5stfcfqttkfbbffdnlv7hn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '3af98cc547f6d3b003b71a23c91a8dd2ac40c9d0eb2ff3fa14c40bc5909a42aca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QFxyAdnE-SFkAH9uj34dPf0PXB8P7_bZ\";}'
+    'PHPSESSID' => 'ba3j5stfcfqttkfbbffdnlv7hn'
+    '_identity' => '19f5f85e17fb19e6fa36c87044a87f52fe301aa212f537ae030790b159460a73a:2:{i:0;s:9:\"_identity\";i:1;s:19:\"[null,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost/protaurus/'
+    '__id' => null
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=3af98cc547f6d3b003b71a23c91a8dd2ac40c9d0eb2ff3fa14c40bc5909a42aca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QFxyAdnE-SFkAH9uj34dPf0PXB8P7_bZ%22%3B%7D; PHPSESSID=ba3j5stfcfqttkfbbffdnlv7hn; _identity=19f5f85e17fb19e6fa36c87044a87f52fe301aa212f537ae030790b159460a73a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A19%3A%22%5Bnull%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\PuTTY\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Serrao\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Serrao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Serrao\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Serrao\\.dotnet\\tools;C:\\Users\\Serrao\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/planeta_agua/planet_water/web/index.php'
+    'REMOTE_PORT' => '60754'
+    'REDIRECT_URL' => '/planeta_agua/planet_water/web/cliente/consultat'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/planeta_agua/planet_water/web/cliente/consultat'
+    'SCRIPT_NAME' => '/planeta_agua/planet_water/web/index.php'
+    'PHP_SELF' => '/planeta_agua/planet_water/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1612968329.5254
+    'REQUEST_TIME' => 1612968329
+]
+2021-02-10 15:46:28 [127.0.0.1][-][ba3j5stfcfqttkfbbffdnlv7hn][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: cliente/consultat in C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('consultat', Array)
+#1 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('cliente/consult...', Array)
+#2 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\planeta_agua\planet_water\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Página não encontrada. in C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\planeta_agua\planet_water\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2021-02-10 15:46:28 [127.0.0.1][-][ba3j5stfcfqttkfbbffdnlv7hn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '3af98cc547f6d3b003b71a23c91a8dd2ac40c9d0eb2ff3fa14c40bc5909a42aca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QFxyAdnE-SFkAH9uj34dPf0PXB8P7_bZ\";}'
+    'PHPSESSID' => 'ba3j5stfcfqttkfbbffdnlv7hn'
+    '_identity' => '19f5f85e17fb19e6fa36c87044a87f52fe301aa212f537ae030790b159460a73a:2:{i:0;s:9:\"_identity\";i:1;s:19:\"[null,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost/protaurus/'
+    '__id' => null
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=3af98cc547f6d3b003b71a23c91a8dd2ac40c9d0eb2ff3fa14c40bc5909a42aca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QFxyAdnE-SFkAH9uj34dPf0PXB8P7_bZ%22%3B%7D; PHPSESSID=ba3j5stfcfqttkfbbffdnlv7hn; _identity=19f5f85e17fb19e6fa36c87044a87f52fe301aa212f537ae030790b159460a73a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A19%3A%22%5Bnull%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\PuTTY\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Serrao\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Serrao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Serrao\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Serrao\\.dotnet\\tools;C:\\Users\\Serrao\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/planeta_agua/planet_water/web/index.php'
+    'REMOTE_PORT' => '60842'
+    'REDIRECT_URL' => '/planeta_agua/planet_water/web/cliente/consultat'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/planeta_agua/planet_water/web/cliente/consultat'
+    'SCRIPT_NAME' => '/planeta_agua/planet_water/web/index.php'
+    'PHP_SELF' => '/planeta_agua/planet_water/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1612968388.7252
+    'REQUEST_TIME' => 1612968388
+]
+2021-02-10 15:48:15 [127.0.0.1][-][ba3j5stfcfqttkfbbffdnlv7hn][error][Error] Error: Class 'frontend\widgets\DropdownPager' not found in C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\widgets\BaseListView.php:256
+Stack trace:
+#0 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\widgets\BaseListView.php(162): yii\widgets\BaseListView->renderPager()
+#1 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection('{pager}')
+#2 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{pager}')
+#3 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#4 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#5 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\grid\GridView.php(301): yii\widgets\BaseListView->run()
+#6 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Widget.php(141): yii\grid\GridView->run()
+#7 C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\principal.php(6): yii\base\Widget::widget(Array)
+#8 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#10 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\ClienteController))
+#11 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('principal', Array, Object(app\controllers\ClienteController))
+#12 C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php(88): yii\base\Controller->render('principal', Array)
+#13 [internal function]: app\controllers\ClienteController->actionConsultar()
+#14 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('consultar', Array)
+#17 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('cliente/consult...', Array)
+#18 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\xampp\htdocs\planeta_agua\planet_water\web\index.php(12): yii\base\Application->run()
+#20 {main}
+2021-02-10 15:48:10 [127.0.0.1][-][ba3j5stfcfqttkfbbffdnlv7hn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '3af98cc547f6d3b003b71a23c91a8dd2ac40c9d0eb2ff3fa14c40bc5909a42aca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QFxyAdnE-SFkAH9uj34dPf0PXB8P7_bZ\";}'
+    'PHPSESSID' => 'ba3j5stfcfqttkfbbffdnlv7hn'
+    '_identity' => '19f5f85e17fb19e6fa36c87044a87f52fe301aa212f537ae030790b159460a73a:2:{i:0;s:9:\"_identity\";i:1;s:19:\"[null,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost/protaurus/'
+    '__id' => null
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=3af98cc547f6d3b003b71a23c91a8dd2ac40c9d0eb2ff3fa14c40bc5909a42aca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QFxyAdnE-SFkAH9uj34dPf0PXB8P7_bZ%22%3B%7D; PHPSESSID=ba3j5stfcfqttkfbbffdnlv7hn; _identity=19f5f85e17fb19e6fa36c87044a87f52fe301aa212f537ae030790b159460a73a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A19%3A%22%5Bnull%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\PuTTY\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Serrao\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Serrao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Serrao\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Serrao\\.dotnet\\tools;C:\\Users\\Serrao\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/planeta_agua/planet_water/web/index.php'
+    'REMOTE_PORT' => '60975'
+    'REDIRECT_URL' => '/planeta_agua/planet_water/web/cliente/consultar'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/planeta_agua/planet_water/web/cliente/consultar'
+    'SCRIPT_NAME' => '/planeta_agua/planet_water/web/index.php'
+    'PHP_SELF' => '/planeta_agua/planet_water/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1612968490.1367
+    'REQUEST_TIME' => 1612968490
+]
+2021-02-10 17:33:53 [127.0.0.1][-][ba3j5stfcfqttkfbbffdnlv7hn][error][ParseError] ParseError: syntax error, unexpected '?>' in C:\xampp\htdocs\planeta_agua\planet_water\views\cliente\principal.php:30
+Stack trace:
+#0 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\ClienteController))
+#2 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('principal', Array, Object(app\controllers\ClienteController))
+#3 C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php(88): yii\base\Controller->render('principal', Array)
+#4 [internal function]: app\controllers\ClienteController->actionConsultar()
+#5 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('consultar', Array)
+#8 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('cliente/consult...', Array)
+#9 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\planeta_agua\planet_water\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2021-02-10 17:33:51 [127.0.0.1][-][ba3j5stfcfqttkfbbffdnlv7hn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '3af98cc547f6d3b003b71a23c91a8dd2ac40c9d0eb2ff3fa14c40bc5909a42aca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QFxyAdnE-SFkAH9uj34dPf0PXB8P7_bZ\";}'
+    'PHPSESSID' => 'ba3j5stfcfqttkfbbffdnlv7hn'
+    '_identity' => '19f5f85e17fb19e6fa36c87044a87f52fe301aa212f537ae030790b159460a73a:2:{i:0;s:9:\"_identity\";i:1;s:19:\"[null,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost/protaurus/'
+    '__id' => null
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=3af98cc547f6d3b003b71a23c91a8dd2ac40c9d0eb2ff3fa14c40bc5909a42aca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QFxyAdnE-SFkAH9uj34dPf0PXB8P7_bZ%22%3B%7D; PHPSESSID=ba3j5stfcfqttkfbbffdnlv7hn; _identity=19f5f85e17fb19e6fa36c87044a87f52fe301aa212f537ae030790b159460a73a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A19%3A%22%5Bnull%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\PuTTY\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Serrao\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Serrao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Serrao\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Serrao\\.dotnet\\tools;C:\\Users\\Serrao\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/planeta_agua/planet_water/web/index.php'
+    'REMOTE_PORT' => '64631'
+    'REDIRECT_URL' => '/planeta_agua/planet_water/web/cliente/consultar'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/planeta_agua/planet_water/web/cliente/consultar'
+    'SCRIPT_NAME' => '/planeta_agua/planet_water/web/index.php'
+    'PHP_SELF' => '/planeta_agua/planet_water/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1612974831.7404
+    'REQUEST_TIME' => 1612974831
+]
+2021-02-10 20:19:38 [127.0.0.1][-][l25dnvse9l7q6h4oe7ul1o90ig][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: cliente/cadstrar in C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('cadstrar', Array)
+#1 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('cliente/cadstra...', Array)
+#2 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\planeta_agua\planet_water\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Página não encontrada. in C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\planeta_agua\planet_water\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2021-02-10 20:19:38 [127.0.0.1][-][l25dnvse9l7q6h4oe7ul1o90ig][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f92e6cf57d4e9d7114e45b915466aea7e73be920005bf84029aa74cc7ad77580a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5U99mbjuzztqCkWay-OOw6xzFRIOEg-V\";}'
+    'PHPSESSID' => 'l25dnvse9l7q6h4oe7ul1o90ig'
+    '_identity' => '19f5f85e17fb19e6fa36c87044a87f52fe301aa212f537ae030790b159460a73a:2:{i:0;s:9:\"_identity\";i:1;s:19:\"[null,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => null
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=f92e6cf57d4e9d7114e45b915466aea7e73be920005bf84029aa74cc7ad77580a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225U99mbjuzztqCkWay-OOw6xzFRIOEg-V%22%3B%7D; PHPSESSID=l25dnvse9l7q6h4oe7ul1o90ig; _identity=19f5f85e17fb19e6fa36c87044a87f52fe301aa212f537ae030790b159460a73a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A19%3A%22%5Bnull%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\PuTTY\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Serrao\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Serrao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Serrao\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Serrao\\.dotnet\\tools;C:\\Users\\Serrao\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/planeta_agua/planet_water/web/index.php'
+    'REMOTE_PORT' => '58267'
+    'REDIRECT_URL' => '/planeta_agua/planet_water/web/cliente/cadstrar'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/planeta_agua/planet_water/web/cliente/cadstrar'
+    'SCRIPT_NAME' => '/planeta_agua/planet_water/web/index.php'
+    'PHP_SELF' => '/planeta_agua/planet_water/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1612984778.2191
+    'REQUEST_TIME' => 1612984778
+]
+2021-02-10 20:48:20 [127.0.0.1][-][l25dnvse9l7q6h4oe7ul1o90ig][error][yii\db\Exception] PDOException: SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type date: "2021-Feb-Wed" in C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Command.php:1299
+Stack trace:
+#0 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Command.php(1299): PDOStatement->execute()
+#1 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Command.php(1165): yii\db\Command->internalExecute('INSERT INTO "tb...')
+#2 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Command.php(421): yii\db\Command->queryInternal('fetch', NULL)
+#3 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\pgsql\Schema.php(640): yii\db\Command->queryOne()
+#4 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\pgsql\Schema->insert('tb_cliente_ende...', Array)
+#5 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#6 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(false, NULL)
+#7 C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php(54): yii\db\BaseActiveRecord->save(false)
+#8 [internal function]: app\controllers\ClienteController->actionCadastrar(NULL)
+#9 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('cadastrar', Array)
+#12 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('cliente/cadastr...', Array)
+#13 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\xampp\htdocs\planeta_agua\planet_water\web\index.php(12): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type date: "2021-Feb-Wed"
+The SQL being executed was: INSERT INTO "tb_cliente_endereco" ("id_cliente_fk", "ic_situacao_endereco", "id_usuario_fk", "dt_usuario") VALUES (7051, 1, 1, '2021-Feb-Wed') RETURNING "id_cliente_endereco" in C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Schema.php:678
+Stack trace:
+#0 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Command.php(1304): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO "tb...')
+#1 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Command.php(1165): yii\db\Command->internalExecute('INSERT INTO "tb...')
+#2 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Command.php(421): yii\db\Command->queryInternal('fetch', NULL)
+#3 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\pgsql\Schema.php(640): yii\db\Command->queryOne()
+#4 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\pgsql\Schema->insert('tb_cliente_ende...', Array)
+#5 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#6 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(false, NULL)
+#7 C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php(54): yii\db\BaseActiveRecord->save(false)
+#8 [internal function]: app\controllers\ClienteController->actionCadastrar(NULL)
+#9 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('cadastrar', Array)
+#12 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('cliente/cadastr...', Array)
+#13 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\xampp\htdocs\planeta_agua\planet_water\web\index.php(12): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 22007
+    [1] => 7
+    [2] => ERROR:  invalid input syntax for type date: "2021-Feb-Wed"
+)
+
+2021-02-10 20:48:17 [127.0.0.1][-][l25dnvse9l7q6h4oe7ul1o90ig][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => '-AMameX0VCos6-XYdwrMFuosng0Nxsr4qPjp0cDXTvXNViOgiJY-X1aRkak0YZt3kwHRQnrwsoLuqqCehbBjow=='
+    'Cliente' => [
+        'no_cliente' => 'Alacy'
+        'dt_cadastro' => '2020-01-01'
+        'ic_situacao_cadastral' => '0'
+    ]
+    'ClienteFisico' => [
+        'co_cpf' => '12312312300'
+        'co_rg' => '321321'
+        'dt_nascimento' => '2020-01-01'
+    ]
+    'ClienteContato' => [
+        'de_contato' => ''
+    ]
+    'ClienteEndereco' => [
+        'ic_tipo_endereco' => '9'
+        'no_bairro' => 'MAnaus'
+        'co_logradouro' => '15'
+        'ic_zona' => '1'
+        'sg_uf' => 'MT'
+        'no_cidade' => 'Manaus'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f92e6cf57d4e9d7114e45b915466aea7e73be920005bf84029aa74cc7ad77580a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5U99mbjuzztqCkWay-OOw6xzFRIOEg-V\";}'
+    'PHPSESSID' => 'l25dnvse9l7q6h4oe7ul1o90ig'
+    '_identity' => '19f5f85e17fb19e6fa36c87044a87f52fe301aa212f537ae030790b159460a73a:2:{i:0;s:9:\"_identity\";i:1;s:19:\"[null,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => null
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '562'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/planeta_agua/planet_water/web/cliente/cadastrar'
+    'HTTP_COOKIE' => '_csrf=f92e6cf57d4e9d7114e45b915466aea7e73be920005bf84029aa74cc7ad77580a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225U99mbjuzztqCkWay-OOw6xzFRIOEg-V%22%3B%7D; PHPSESSID=l25dnvse9l7q6h4oe7ul1o90ig; _identity=19f5f85e17fb19e6fa36c87044a87f52fe301aa212f537ae030790b159460a73a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A19%3A%22%5Bnull%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\PuTTY\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Serrao\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Serrao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Serrao\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Serrao\\.dotnet\\tools;C:\\Users\\Serrao\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/planeta_agua/planet_water/web/index.php'
+    'REMOTE_PORT' => '60552'
+    'REDIRECT_URL' => '/planeta_agua/planet_water/web/cliente/cadastrar'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/planeta_agua/planet_water/web/cliente/cadastrar'
+    'SCRIPT_NAME' => '/planeta_agua/planet_water/web/index.php'
+    'PHP_SELF' => '/planeta_agua/planet_water/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1612986497.3701
+    'REQUEST_TIME' => 1612986497
+]
+2021-02-10 20:49:20 [127.0.0.1][-][l25dnvse9l7q6h4oe7ul1o90ig][error][yii\db\IntegrityException] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "ic_tipo_endereco" violates not-null constraint
+DETAIL:  Failing row contains (9994, 7052, null, 1, null, null, null, null, null, null, null, null, null, 1, null, null, f). in C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Command.php:1299
+Stack trace:
+#0 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Command.php(1299): PDOStatement->execute()
+#1 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Command.php(1165): yii\db\Command->internalExecute('INSERT INTO "tb...')
+#2 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Command.php(421): yii\db\Command->queryInternal('fetch', NULL)
+#3 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\pgsql\Schema.php(640): yii\db\Command->queryOne()
+#4 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\pgsql\Schema->insert('tb_cliente_ende...', Array)
+#5 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#6 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(false, NULL)
+#7 C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php(54): yii\db\BaseActiveRecord->save(false)
+#8 [internal function]: app\controllers\ClienteController->actionCadastrar(NULL)
+#9 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('cadastrar', Array)
+#12 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('cliente/cadastr...', Array)
+#13 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\xampp\htdocs\planeta_agua\planet_water\web\index.php(12): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "ic_tipo_endereco" violates not-null constraint
+DETAIL:  Failing row contains (9994, 7052, null, 1, null, null, null, null, null, null, null, null, null, 1, null, null, f).
+The SQL being executed was: INSERT INTO "tb_cliente_endereco" ("id_cliente_fk", "ic_situacao_endereco", "id_usuario_fk") VALUES (7052, 1, 1) RETURNING "id_cliente_endereco" in C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Schema.php:678
+Stack trace:
+#0 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Command.php(1304): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO "tb...')
+#1 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Command.php(1165): yii\db\Command->internalExecute('INSERT INTO "tb...')
+#2 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Command.php(421): yii\db\Command->queryInternal('fetch', NULL)
+#3 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\pgsql\Schema.php(640): yii\db\Command->queryOne()
+#4 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\pgsql\Schema->insert('tb_cliente_ende...', Array)
+#5 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#6 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(false, NULL)
+#7 C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php(54): yii\db\BaseActiveRecord->save(false)
+#8 [internal function]: app\controllers\ClienteController->actionCadastrar(NULL)
+#9 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('cadastrar', Array)
+#12 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('cliente/cadastr...', Array)
+#13 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\xampp\htdocs\planeta_agua\planet_water\web\index.php(12): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 23502
+    [1] => 7
+    [2] => ERROR:  null value in column "ic_tipo_endereco" violates not-null constraint
+DETAIL:  Failing row contains (9994, 7052, null, 1, null, null, null, null, null, null, null, null, null, 1, null, null, f).
+)
+
+2021-02-10 20:49:16 [127.0.0.1][-][l25dnvse9l7q6h4oe7ul1o90ig][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => '-AMameX0VCos6-XYdwrMFuosng0Nxsr4qPjp0cDXTvXNViOgiJY-X1aRkak0YZt3kwHRQnrwsoLuqqCehbBjow=='
+    'Cliente' => [
+        'no_cliente' => 'Alacy'
+        'dt_cadastro' => '2020-01-01'
+        'ic_situacao_cadastral' => '0'
+    ]
+    'ClienteFisico' => [
+        'co_cpf' => '12312312300'
+        'co_rg' => '321321'
+        'dt_nascimento' => '2020-01-01'
+    ]
+    'ClienteContato' => [
+        'de_contato' => ''
+    ]
+    'ClienteEndereco' => [
+        'ic_tipo_endereco' => '9'
+        'no_bairro' => 'MAnaus'
+        'co_logradouro' => '15'
+        'ic_zona' => '1'
+        'sg_uf' => 'MT'
+        'no_cidade' => 'Manaus'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f92e6cf57d4e9d7114e45b915466aea7e73be920005bf84029aa74cc7ad77580a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5U99mbjuzztqCkWay-OOw6xzFRIOEg-V\";}'
+    'PHPSESSID' => 'l25dnvse9l7q6h4oe7ul1o90ig'
+    '_identity' => '19f5f85e17fb19e6fa36c87044a87f52fe301aa212f537ae030790b159460a73a:2:{i:0;s:9:\"_identity\";i:1;s:19:\"[null,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => null
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/planeta_agua/planet_water/web/cliente/cadastrar'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '562'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=f92e6cf57d4e9d7114e45b915466aea7e73be920005bf84029aa74cc7ad77580a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225U99mbjuzztqCkWay-OOw6xzFRIOEg-V%22%3B%7D; PHPSESSID=l25dnvse9l7q6h4oe7ul1o90ig; _identity=19f5f85e17fb19e6fa36c87044a87f52fe301aa212f537ae030790b159460a73a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A19%3A%22%5Bnull%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\PuTTY\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Serrao\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Serrao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Serrao\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Serrao\\.dotnet\\tools;C:\\Users\\Serrao\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/planeta_agua/planet_water/web/index.php'
+    'REMOTE_PORT' => '60626'
+    'REDIRECT_URL' => '/planeta_agua/planet_water/web/cliente/cadastrar'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/planeta_agua/planet_water/web/cliente/cadastrar'
+    'SCRIPT_NAME' => '/planeta_agua/planet_water/web/index.php'
+    'PHP_SELF' => '/planeta_agua/planet_water/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1612986556.583
+    'REQUEST_TIME' => 1612986556
+]
+2021-02-10 22:07:41 [127.0.0.1][-][l25dnvse9l7q6h4oe7ul1o90ig][error][yii\db\IntegrityException] PDOException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "ic_tipo_endereco" violates not-null constraint
+DETAIL:  Failing row contains (9995, 7053, null, 1, null, null, null, null, null, null, null, null, null, 1, null, null, f). in C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Command.php:1299
+Stack trace:
+#0 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Command.php(1299): PDOStatement->execute()
+#1 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Command.php(1165): yii\db\Command->internalExecute('INSERT INTO "tb...')
+#2 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Command.php(421): yii\db\Command->queryInternal('fetch', NULL)
+#3 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\pgsql\Schema.php(640): yii\db\Command->queryOne()
+#4 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\pgsql\Schema->insert('tb_cliente_ende...', Array)
+#5 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#6 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(false, NULL)
+#7 C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php(54): yii\db\BaseActiveRecord->save(false)
+#8 [internal function]: app\controllers\ClienteController->actionCadastrar(NULL)
+#9 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('cadastrar', Array)
+#12 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('cliente/cadastr...', Array)
+#13 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\xampp\htdocs\planeta_agua\planet_water\web\index.php(12): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "ic_tipo_endereco" violates not-null constraint
+DETAIL:  Failing row contains (9995, 7053, null, 1, null, null, null, null, null, null, null, null, null, 1, null, null, f).
+The SQL being executed was: INSERT INTO "tb_cliente_endereco" ("id_cliente_fk", "ic_situacao_endereco", "id_usuario_fk") VALUES (7053, 1, 1) RETURNING "id_cliente_endereco" in C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Schema.php:678
+Stack trace:
+#0 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Command.php(1304): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO "tb...')
+#1 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Command.php(1165): yii\db\Command->internalExecute('INSERT INTO "tb...')
+#2 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\Command.php(421): yii\db\Command->queryInternal('fetch', NULL)
+#3 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\pgsql\Schema.php(640): yii\db\Command->queryOne()
+#4 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\pgsql\Schema->insert('tb_cliente_ende...', Array)
+#5 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#6 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(false, NULL)
+#7 C:\xampp\htdocs\planeta_agua\planet_water\controllers\ClienteController.php(54): yii\db\BaseActiveRecord->save(false)
+#8 [internal function]: app\controllers\ClienteController->actionCadastrar(NULL)
+#9 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('cadastrar', Array)
+#12 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('cliente/cadastr...', Array)
+#13 C:\xampp\htdocs\planeta_agua\planet_water\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\xampp\htdocs\planeta_agua\planet_water\web\index.php(12): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 23502
+    [1] => 7
+    [2] => ERROR:  null value in column "ic_tipo_endereco" violates not-null constraint
+DETAIL:  Failing row contains (9995, 7053, null, 1, null, null, null, null, null, null, null, null, null, 1, null, null, f).
+)
+
+2021-02-10 22:07:37 [127.0.0.1][-][l25dnvse9l7q6h4oe7ul1o90ig][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'kil_9GbWzRAzfTHY4d6oPjFZMh7P0NgA4skVvGuJhnenfEbNC7SnZUkHRamitf9fSHR9UbjmoHqkm1zzLu6rIQ=='
+    'Cliente' => [
+        'no_cliente' => 'Alacy'
+        'dt_cadastro' => '2020-01-01'
+        'ic_situacao_cadastral' => '0'
+    ]
+    'ClienteFisico' => [
+        'co_cpf' => '12312312300'
+        'co_rg' => '321321'
+        'dt_nascimento' => '2020-01-01'
+    ]
+    'ClienteContato' => [
+        'de_contato' => ''
+    ]
+    'ClienteEndereco' => [
+        'ic_tipo_endereco' => ''
+        'no_bairro' => ''
+        'co_logradouro' => ''
+        'ic_zona' => ''
+        'sg_uf' => ''
+        'no_cidade' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f92e6cf57d4e9d7114e45b915466aea7e73be920005bf84029aa74cc7ad77580a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5U99mbjuzztqCkWay-OOw6xzFRIOEg-V\";}'
+    'PHPSESSID' => 'l25dnvse9l7q6h4oe7ul1o90ig'
+    '_identity' => '19f5f85e17fb19e6fa36c87044a87f52fe301aa212f537ae030790b159460a73a:2:{i:0;s:9:\"_identity\";i:1;s:19:\"[null,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => null
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '544'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/planeta_agua/planet_water/web/cliente/cadastrar'
+    'HTTP_COOKIE' => '_csrf=f92e6cf57d4e9d7114e45b915466aea7e73be920005bf84029aa74cc7ad77580a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225U99mbjuzztqCkWay-OOw6xzFRIOEg-V%22%3B%7D; PHPSESSID=l25dnvse9l7q6h4oe7ul1o90ig; _identity=19f5f85e17fb19e6fa36c87044a87f52fe301aa212f537ae030790b159460a73a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A19%3A%22%5Bnull%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\PuTTY\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Serrao\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Serrao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Serrao\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Serrao\\.dotnet\\tools;C:\\Users\\Serrao\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/planeta_agua/planet_water/web/index.php'
+    'REMOTE_PORT' => '63920'
+    'REDIRECT_URL' => '/planeta_agua/planet_water/web/cliente/cadastrar'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/planeta_agua/planet_water/web/cliente/cadastrar'
+    'SCRIPT_NAME' => '/planeta_agua/planet_water/web/index.php'
+    'PHP_SELF' => '/planeta_agua/planet_water/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1612991257.8168
+    'REQUEST_TIME' => 1612991257
+]
