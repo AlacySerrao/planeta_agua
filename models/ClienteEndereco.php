@@ -14,9 +14,12 @@ class ClienteEndereco extends ActiveRecord{
     }
     public function rules(){
         return[
-            [['no_logradouro','co_logradouro','no_bairro','co_cep','no_cidade','ic_zona','sg_uf'],'required'],
-            [['co_cep'],'string','length'=>[8,8]],
-            [['ic_tipo_endereco','ic_situacao_endereco'],'default','value'=>1],
+            [['id_cliente_fk', 'no_logradouro', 'co_logradouro', 'no_bairro', 'co_cep','no_cidade','sg_uf','ic_zona'], 'required'],
+            [['ic_tipo_endereco', 'ic_situacao_endereco'], 'default', 'value' => 1],
+            [['id_cliente_fk', 'ic_tipo_endereco', 'id_usuario_fk', 'ic_zona', 'ic_situacao_endereco'], 'integer'],
+            [['nu_cliente_latitude', 'nu_cliente_longitude'], 'number'],
+            [['dt_usuario','ic_tipo_endereco'], 'safe'],
+            [['ic_excluido'], 'boolean'],
             
         ];
         
