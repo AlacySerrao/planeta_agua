@@ -20,13 +20,13 @@ use yii\jui\datePicker;
     </div> <!-- /. card-header -->
  
 <?php $form = ActiveForm::begin();?>
-
+<?=$form->errorSummary($cliente); ?>
     <div class = "card-body">
 
-    <?= $form->field($cliente,'no_cliente')->textInput(['style'=>'width: 100%;text-transform: uppercase;'])->label('Nome');?>
-    <?= $form->field($cliente,'dt_cadastro')->widget(datePicker::class)->label('DATA CADASTRO');?>
-    <?=date('d/m/Y',strtotime($cliente->dt_cadastro))?>
-    <?= $form->field($cliente,'ic_situacao_cadastral')->dropDownList(['0'=>'Inativo','1'=>'Ativo'])->label('Situação Cadastral');?>
+    <?= $form->field($cliente,'no_cliente')->textInput(['style'=>'width: 100%;text-transform: uppercase;'])->error(false)->label('Nome');?>
+    <?= $form->field($cliente,'dt_cadastro')->widget(datePicker::class)->label('DATA CADASTRO')->error(false);?>
+    
+    <?= $form->field($cliente,'ic_situacao_cadastral')->dropDownList(['0'=>'Inativo','1'=>'Ativo'])->label('Situação Cadastral')->error(false);?>
     </div><!-- /. card-body-->
     </div><!-- /. card card-primary -->
 </div> <!-- /.col-md-8 -->
@@ -44,9 +44,9 @@ use yii\jui\datePicker;
     </div> <!-- /. card-header -->
     <div class = "card-body">
     <?php        
-            echo $form->field($fisico,'co_cpf')->textInput()->label('CPF');
-            echo $form->field($fisico,'co_rg')->textInput()->label('RG');
-            echo $form->field($fisico,'dt_nascimento')->textInput()->label('DATA NASCIMENTO');
+            echo $form->field($fisico,'co_cpf')->textInput()->label('CPF')->error(false);
+            echo $form->field($fisico,'co_rg')->textInput()->label('RG')->error(false);
+            echo $form->field($fisico,'dt_nascimento')->textInput()->label('DATA NASCIMENTO')->error(false);
        ?>
       </div><!-- /. card-body-->
     </div><!-- /. card card-primary -->
@@ -68,11 +68,11 @@ use yii\jui\datePicker;
     </div> <!-- /. card-header -->
     <div class = "card-body">
     <?php
-           echo $form->field($juridico,'no_fantasia')->textInput()->label('NOME FANTASIA');
-           echo $form->field($juridico,'co_cnpj')->textInput()->label('CNPJ');
-           echo $form->field($juridico,'nu_ie_estadual')->textInput()->label('NÚMERO DE INSCRIÇÃO ESTADUAL');
-           echo $form->field($juridico,'nu_ie_municipal')->textInput()->label('NÚMERO DE INSCRIÇÃO MUNICIPAL');
-           echo $form->field($juridico,'dt_abertura')->textInput()->label('DATA DE ABERTURA');
+           echo $form->field($juridico,'no_fantasia')->textInput()->label('NOME FANTASIA')->error(false);
+           echo $form->field($juridico,'co_cnpj')->textInput()->label('CNPJ')->error(false);
+           echo $form->field($juridico,'nu_ie_estadual')->textInput()->label('NÚMERO DE INSCRIÇÃO ESTADUAL')->error(false);
+           echo $form->field($juridico,'nu_ie_municipal')->textInput()->label('NÚMERO DE INSCRIÇÃO MUNICIPAL')->error(false);
+           echo $form->field($juridico,'dt_abertura')->textInput()->label('DATA DE ABERTURA')->error(false);
         ?>
         </div><!-- /. card-body-->
         </div><!-- /. card card-primary -->

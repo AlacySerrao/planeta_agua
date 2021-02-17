@@ -22,7 +22,11 @@ class ClienteController extends Controller{
         $endereco = new ClienteEndereco();
          
         if ($model->load(Yii::$app->request->post())){// load(Carrega os dados para o post e salva)
-            if($model->validate()){
+            
+            if(( ($fisico->validate()) || ($juridico->validate())) &&
+                 ($model->validate() && $endereco->validate() && $contato->validate())
+                 
+                ){
                 
                 $this->salvar($model,$fisico,$juridico,$endereco,$contato);
             
@@ -104,21 +108,22 @@ class ClienteController extends Controller{
     }
     private  function salvar($model,$fisico,$juridico,$endereco,$contato){
         $model->id_usuario_fk=1; // quem tá cadastrando
+        $model->dt_cadastro = date('Y-m-d',strtotime($model->dt_cadastro));
                 if(isset($_POST['ClienteFisico'])){
                     $fisico->load(yii::$app->request->post());
                     
-                        $model->save(false); // salva os atributos da classe cliente
+                        $model->save(); // salva os atributos da classe cliente
                         $fisico->id_cliente_fk = $model->id_cliente;
-                        $fisico->save(false); // salva em cliente fisico
+                        $fisico->save(); // salva em cliente fisico
                         //return $this->redirect(['visualizar','id'=>$model->id_cliente]);
                     
                 }
                 if(isset($_POST['ClienteJuridico'])){
                     $juridico->load(yii::$app->request->post());
                     
-                        $model->save(false);
+                        $model->save();
                         $juridico->id_cliente_fk = $model->id_cliente;
-                        $juridico->save(false);
+                        $juridico->save();
                         //return $this->redirect(['visualizar',$model->id_cliente]);
                     
                 }
@@ -128,13 +133,13 @@ class ClienteController extends Controller{
                     $endereco->ic_situacao_endereco = 1;
                     $endereco->id_usuario_fk = 1;
                     $endereco->dt_usuario = date('Y-m-d');
-                    $endereco->save(false);
+                    $endereco->save();
                     
                 }
                 if(isset($_POST['ClienteContato'])){
                     $contato->load(yii::$app->request->post());
                     $contato->id_cliente_fk = $model->id_cliente;
-                    $contato->save(false);
+                    $contato->save();
                 }
                 return $this->redirect(['visualizar','id'=>$model->id_cliente]);
     } 

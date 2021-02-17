@@ -4,7 +4,7 @@ use Codeception\PHPUnit\ResultPrinter\HTML as ResultPrinterHTML;
 use yii\helpers\Html;
 use yii\grid\GridView;
 use yii\bootstrap4\Modal;
-$this->title='Cadastro de Clientes';
+$this->title='Clientes';
 Modal::begin([
     'title' => 'Consultar Cliente',
     'size' => 'modal-xl',
@@ -13,26 +13,39 @@ Modal::begin([
 echo"<div id='modalconteudo'></div>";
 Modal::end();
 ?>
-<div class="card">
-<div class = "card-header">
 
-<div class = "card-title">Exibir/ Buscar Cliente</div>
-<div class = "card-tools">
+
+<p>
 <?=//$this->render('_search',['model'=>$seachModel]);
-    Html::a('Buscar Cliente',['cliente/search'],['class'=>'modalButton btn btn-info btn-sm']);
-?>
-</div>
-</div>
-</div>
-<div class="col-md-16">
-<div class="card">
+    Html::a('Novo Cliente',['cliente/cadastrar'],['class'=>'modalButton btn btn-success btn-sm']);
+?></p>
+<div class="row">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Exibir/Buscar Cliente</h3>
 
-<div class="card-body table-responsive">
+                <div class="card-tools">
+                  <div class="input-group input-group-sm" style="width: 150px;">
+                    <input type="text" name="table_search" class="form-control float-right" placeholder="Buscar">
+
+                    <div class="input-group-append">
+                    <button type="submit" class="btn btn-default">
+                        <i class="fas fa-search"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body table-responsive p-0">
+
 <?=GridView::widget([
     'dataProvider'=>$dataProvider,
         'tableOptions'=>['class'=>'table table-striped','cellspacing'=>'1','cellpadding'=>'3'],
+        'layout'=>"{items}\n{pager}",
        'columns'=>[
-        ['class' => 'yii\grid\SerialColumn'],
+        
         ['header'=> 'código',
         'headerOptions'=>['style'=>'text-aling: center; widht: 100px'],
         'format'=>'raw',
@@ -42,7 +55,8 @@ Modal::end();
         },
         ],
         ['header'=>'nome',
-            'headerOptions'=>['style'=>'widht:300px'],
+            'headerOptions'=>['style'=>'widht:250px'],
+            'contentOptions'=>['style'=>'widht:250px'],
             'value'=>'no_cliente',
             'format' => 'raw',
             'value' => function ($model){
@@ -85,7 +99,7 @@ Modal::end();
         ],
 
         ['header'=>'Ação',
-        'headerOptions'=>['style'=> 'width: 100px'],
+        'headerOptions'=>['style'=> 'width: 120px'],
         'format'=>'raw',
         'value'=> function($model){
             return Html::a('<i class="fas fa-phone"></i>',['cliente/contato','id'=>$model->id_cliente],['class'=>'modalButton'])."&nbsp;&nbsp;&nbsp;"
@@ -99,9 +113,14 @@ Modal::end();
 
 ]) 
 ?>
+ </div>
+
+<!-- /.card-body -->
 </div>
-</div>
-</div>
+           <!-- /.card -->
+         </div>
+       </div>
+
 <?php
 $js = <<< JS
     /*$('#modalbutton').click(    

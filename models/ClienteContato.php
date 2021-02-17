@@ -11,7 +11,7 @@ class ClienteContato extends ActiveRecord{
     }
     public function rules(){
         return[
-            [['de_contato','ic_tipo_contato'],'required','message'=>'CAMPO OBRIGATÓRIO'],
+            [['de_contato','ic_tipo_contato'],'required'],
             
         ];
     }

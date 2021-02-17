@@ -12,7 +12,7 @@ class ClienteJuridico extends ActiveRecord{
     public function rules(){
         //[campos[],regras[]]
         return[
-            [['co_cnpj','dt_abertura'],'required','message'=>'CAMPO OBRIGATóRIO'],
+            [['co_cnpj','dt_abertura'],'required'],
             [['co_cnpj'],'string','length'=>[14,14]],// verifica se cnpj tem 14 digitos
             [['co_cnpj'],'unique'],// verifica se cnpj é unico
             [['no_fantasia'],'safe']
