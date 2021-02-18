@@ -12,7 +12,7 @@ class Cliente extends ActiveRecord{
     public function rules(){
         //[campos[],regras[]]
         return[
-            [['no_cliente','dt_cadastro'],'required','message'=>'CAMPO OBRIGATóRIO'],// Obriga que os campos nome e data sejam preenchidos
+            [['no_cliente','dt_cadastro'],'required'],// Obriga que os campos nome e data sejam preenchidos
             [['no_cliente'],'string','length'=>[3,70]] // limita que o campo no receba no minimo 3 caracteres.
 
         ];
