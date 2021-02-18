@@ -47,6 +47,20 @@ Modal::end();
         'tableOptions'=>['class'=>'table table-striped','cellspacing'=>'1','cellpadding'=>'3'],
         'layout'=>"{items}\n<div class='mx-auto'>{pager}</div>",
        'columns'=>[
+        [
+            'class' => 'kartik\grid\ExpandRowColumn',
+            'width' => '50px',
+            'value' => function ($model, $key, $index, $column) {
+                return GridView::ROW_COLLAPSED;
+            },
+            // uncomment below and comment detail if you need to render via ajax
+            // 'detailUrl' => Url::to(['/site/book-details']),
+            'detail' => function ($model, $key, $index, $column) {
+                return Yii::$app->controller->renderPartial('_endereco', ['cliente' => $model]);
+            },
+            'headerOptions' => ['class' => 'kartik-sheet-style'], 
+            'expandOneOnly' => true
+        ],
         
         ['header'=> 'código',
         'headerOptions'=>['style'=>'text-aling: center; widht: 100px'],
