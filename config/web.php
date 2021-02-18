@@ -13,6 +13,13 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
     ],
     'components' => [
+        'assetManager' => [
+            'bundles' => [
+                'kartik\form\ActiveFormAsset' => [
+                    'bsDependencyEnabled' => false // do not load bootstrap assets for a specific asset bundle
+                ],
+            ],
+        ],
         'formatter' => [
             'class' => 'yii\i18n\Formatter',
             'dateFormat' => 'dd/MM/yyyy',
@@ -65,6 +72,7 @@ $config = [
         ],
         
     ],
+    'modules'=>['gridview'=>['class'=>'\kartik\grid\module']],
     'params' => $params,
     
 ];

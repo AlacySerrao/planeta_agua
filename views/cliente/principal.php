@@ -1,9 +1,10 @@
 <?php
 
+use app\models\ClienteContato;
 use Codeception\PHPUnit\ResultPrinter\HTML as ResultPrinterHTML;
 use yii\helpers\Html;
-use yii\grid\GridView;
 use yii\bootstrap4\Modal;
+use kartik\grid\GridView;
 $this->title='Clientes';
 Modal::begin([
     'title' => 'Consultar Cliente',
@@ -12,6 +13,7 @@ Modal::begin([
 ]);
 echo"<div id='modalconteudo'></div>";
 Modal::end();
+
 ?>
 
 
@@ -43,7 +45,7 @@ Modal::end();
 <?=GridView::widget([
     'dataProvider'=>$dataProvider,
         'tableOptions'=>['class'=>'table table-striped','cellspacing'=>'1','cellpadding'=>'3'],
-        'layout'=>"{items}\n{pager}",
+        'layout'=>"{items}\n<div class='mx-auto'>{pager}</div>",
        'columns'=>[
         
         ['header'=> 'código',

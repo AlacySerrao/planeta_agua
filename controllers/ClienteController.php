@@ -56,7 +56,10 @@ class ClienteController extends Controller{
     public function actionConsultar(){
         $seachModel = new ClienteSeach();
         $dataProvider = $seachModel->seach(Yii::$app->request->queryParams);
-        return $this->render('principal',['seachModel'=>$seachModel,'dataProvider'=>$dataProvider]);
+        $pages = $dataProvider->pagination;
+        
+        return $this->render('principal',['seachModel'=>$seachModel,'dataProvider'=>$dataProvider
+        ,'pages'=>$pages]);
         
     }
     public function actionAtualizar($id){
