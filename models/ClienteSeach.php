@@ -13,11 +13,12 @@ class ClienteSeach extends Cliente{
     public $endereco;
     public $bairro;
     public $tell;
-
+    public $busca;
     public function rules(){
         return [
-            [['no_cliente','cpf','rg','cnpj','noFantasia','endereco','bairro','tell'],'safe'],
-            [['rg','cpf','cnpj'],'integer']
+            [['no_cliente','cpf','rg','cnpj','noFantasia','endereco','bairro','tell','busca'],'safe'],
+            [['rg','cpf','cnpj'],'integer'],
+            [['busca'],'string']
         ];
     }
     public function seach($par){
@@ -39,11 +40,13 @@ class ClienteSeach extends Cliente{
          */
         $query->andFilterWhere([
             'id_cliente'=>$this->id_cliente,
+
         ]);
-        $query->andFilterWhere(['like','no_cliente',$this->no_cliente]);
+        $query->andFilterWhere(['like','no_cliente',trim($this->cpf)]);
         $query->andFilterWhere(['like','tb_cliente_fisico.co_cpf',$this->cpf]);
-        $query->andFilterWhere(['like','tb_cliente_juridico.co_cnpj',$this->cnpj]);
+        $query->andFilterWhere(['like','tb_cliente_juridico.co_cnpj',$this->cpf]);
         $query->andFilterWhere(['like','tb_cliente_endereco.no_logradouro',$this->endereco]);
+        echo $this->busca;
         return $dataProvider;
     }
 }

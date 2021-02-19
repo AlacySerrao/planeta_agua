@@ -22,21 +22,30 @@ echo$this->render('nav_cliente',['assetDir'=>'']);
 <p>
 <?=//$this->render('_search',['model'=>$seachModel]);
     Html::a('Novo Cliente',['cliente/cadastrar'],['class'=>'modalButton btn btn-info']);
+    
 ?></p>
+<?=Html::a('Novo Cliente Consultar',['cliente/search'],['class'=>'modalButton btn btn-info']);?>
 
 <div class="row">
 
           <div class="col-12">
-          <?php $form = ActiveForm::begin(['action'=>['consultar'],'method'=>'get']);?>
+         
             <div class="card">
-                
+            <?php $form = ActiveForm::begin([
+              'action'=>['consultar'],
+               'method'=>'get',
+               'fieldConfig'=>[
+                   'template'=>"{input}",
+                   'options'=>['tag'=>false]
+                   ]
+               ]);?>
               <div class="card-header">
                               
                 <div class="card-tools">
                 
                   <div class="input-group" style="width: 950px;">
                         <?=               
-                        $form->field($seachModel,'no_cliente')->label(false)->
+                        $form->field($seachModel,'cpf')->label(false)->
                         textInput(['class'=>'form-control form-control-lg','placeholder'=>'Exibir/Buscar Cliente']);?>
                                                        
                     <div class="input-group-append">
@@ -49,7 +58,7 @@ echo$this->render('nav_cliente',['assetDir'=>'']);
             </div>
                 
         </div>
-              
+        <?php ActiveForm::end();?>
               <!-- /.card-header -->
               <div class="card-body table-responsive p-0">
 
@@ -147,7 +156,7 @@ echo$this->render('nav_cliente',['assetDir'=>'']);
            <!-- /.card -->
            
          </div>
-         <?php ActiveForm::end();?>
+         
        </div>
 
 <?php
