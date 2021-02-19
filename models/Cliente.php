@@ -39,4 +39,7 @@ class Cliente extends ActiveRecord{
     public function getClienteEndereco(){
         return $this->hasMany(ClienteEndereco::class, ['id_cliente_fk' => 'id_cliente']);
     }
+    public function getZona($cod){
+        return Lookup::trazerItem('zona',$cod)?Lookup::trazerItem('zona',$cod):'Não Informado'; // if ternario
+    }
 }

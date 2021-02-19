@@ -44,6 +44,11 @@ class Lookup extends ActiveRecord{
              */
         }
     }
+    public static function trazerItem($tipo,$cod){
+        if(!isset(self::$itens[$tipo]))
+			self::buscarItens($tipo);
+		return isset(self::$itens[$tipo][$cod]) ? self::$itens[$tipo][$cod] : false;
+    } 
     
     
 
