@@ -15,16 +15,34 @@ Modal::begin([
 ]);
 echo"<div id='modalconteudo'></div>";
 Modal::end();
-echo$this->render('nav_cliente',['assetDir'=>'']);
 
 ?>
+<div class="card card-default">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-sm-2">
+            <div class="info-box shadow-sm">
+              <span class="info-box-icon bg-info"><i class="fas fa-users"></i></span>
 
-<p>
-<?=//$this->render('_search',['model'=>$seachModel]);
-    Html::a('Novo Cliente',['cliente/cadastrar'],['class'=>'modalButton btn btn-info']);
-    
-?></p>
-<?=Html::a('Novo Cliente Consultar',['cliente/search'],['class'=>'modalButton btn btn-info']);?>
+              <div class="info-box-content">
+                <span class="info-box-text">CLIENTES</span>
+                
+              </div>
+              <!-- /.info-box-content -->
+            </div>   
+            </div>
+            <div class="col-sm-6"><?=Html::a('Novo Cliente',['cliente/cadastrar'],['class'=>'modalButton btn btn-info']);?></div>
+        
+        </div>
+        
+        
+    </div><!--/.card-header-->
+    <div class="card-body">
+        <div class="row">
+                
+        </div><!--/.row-->
+    </div><!--/.card-body-->
+</div><!--/.card card-default-->
 
 <div class="row">
 
