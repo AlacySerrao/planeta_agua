@@ -5,7 +5,9 @@ use Codeception\PHPUnit\ResultPrinter\HTML as ResultPrinterHTML;
 use yii\helpers\Html;
 use yii\bootstrap4\Modal;
 use kartik\grid\GridView;
-$this->title='Clientes';
+use SebastianBergmann\CodeCoverage\Report\Xml\Method;
+use yii\bootstrap4\ActiveForm;
+
 Modal::begin([
     'title' => 'Consultar Cliente',
     'size' => 'modal-xl',
@@ -13,32 +15,41 @@ Modal::begin([
 ]);
 echo"<div id='modalconteudo'></div>";
 Modal::end();
+echo$this->render('nav_cliente',['assetDir'=>'']);
 
 ?>
 
-
 <p>
 <?=//$this->render('_search',['model'=>$seachModel]);
-    Html::a('Novo Cliente',['cliente/cadastrar'],['class'=>'modalButton btn btn-success btn-sm']);
+    Html::a('Novo Cliente',['cliente/cadastrar'],['class'=>'modalButton btn btn-info']);
 ?></p>
+
 <div class="row">
+
           <div class="col-12">
+          <?php $form = ActiveForm::begin(['action'=>['consultar'],'method'=>'get']);?>
             <div class="card">
+                
               <div class="card-header">
-                <h3 class="card-title">Exibir/Buscar Cliente</h3>
-
+                              
                 <div class="card-tools">
-                  <div class="input-group input-group-sm" style="width: 150px;">
-                    <input type="text" name="table_search" class="form-control float-right" placeholder="Buscar">
-
+                
+                  <div class="input-group" style="width: 950px;">
+                        <?=               
+                        $form->field($seachModel,'no_cliente')->label(false)->
+                        textInput(['class'=>'form-control form-control-lg','placeholder'=>'Exibir/Buscar Cliente']);?>
+                                                       
                     <div class="input-group-append">
-                    <button type="submit" class="btn btn-default">
-                        <i class="fas fa-search"></i>
-                      </button>
+                        <button type="submit" class="btn btn-default">
+                            <i class="fas fa-search"></i>
+                        </button>
                     </div>
-                  </div>
+                    
                 </div>
-              </div>
+            </div>
+                
+        </div>
+              
               <!-- /.card-header -->
               <div class="card-body table-responsive p-0">
 
@@ -134,7 +145,9 @@ Modal::end();
 <!-- /.card-body -->
 </div>
            <!-- /.card -->
+           
          </div>
+         <?php ActiveForm::end();?>
        </div>
 
 <?php

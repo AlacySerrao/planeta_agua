@@ -35,4 +35,7 @@ class ClienteEndereco extends ActiveRecord{
     public function getTipoEndereco(){
         return Lookup::items('endereco');
     }
+    public function getZona($cod){
+        return Lookup::trazerItem('zona',$cod)?Lookup::trazerItem('zona',$cod):'Não Informado'; // if ternario
+    }
 }
