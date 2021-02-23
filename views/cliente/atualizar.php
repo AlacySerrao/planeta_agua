@@ -25,7 +25,7 @@ use yii\helpers\Url;
             'items'=>[
                 [
                     'label'=>'Detalhes do Cliente',
-                    'content'=>$this->render('visualizar',['cliente'=>$cliente]),
+                    'url'=>Url::toRoute(['cliente/visualizar','id'=>$cliente->id_cliente])
                     
                 ],
                 [

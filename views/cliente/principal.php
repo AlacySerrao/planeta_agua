@@ -181,28 +181,3 @@ Modal::end();
          
        </div>
 
-<?php
-$js = <<< JS
-    /*$('#modalbutton').click(    
-        function(){
-            $.get(
-                $(this).attr('href'), function(data){
-                    $('#modal').modal('show').find('#modalconteudo').html(data);
-                }
-            );
-        }
-    
-    );  */
-    $(function(){
-  
-  $('.modalButton').click(function (){
-      $.get($(this).attr('href'), function(data) {
-        $('#modal').modal('show').find('#modalconteudo').html(data)
-     });
-     return false;
-  });
-});    
-      
-JS;
-$this->registerJs($js);
-?>

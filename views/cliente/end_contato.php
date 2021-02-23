@@ -2,6 +2,14 @@
 use yii\bootstrap4\Tabs;
 use yii\helpers\Html;
 use yii\helpers\Url;
+use yii\bootstrap4\Modal;
+Modal::begin([
+    'title' => 'Consultar Endereços',
+    'size' => 'modal-xl',
+    'id' => 'modal'
+]);
+echo"<div id='modalconteudo'></div>";
+Modal::end();
 
 ?>
 <div class="card card-default">
@@ -20,12 +28,13 @@ use yii\helpers\Url;
             </div>
         </div><!--./card-header-->
     </div><!--./card card-default-->
+    
     <?=
         Tabs::widget([
             'items'=>[
                 [
                     'label'=>'Detalhes do Cliente',
-                    'content'=>$this->render('visualizar',['cliente'=>$cliente]),
+                    'url'=>Url::toRoute(['cliente/visualizar','id'=>$cliente->id_cliente]),
                     
                 ],
                 [
