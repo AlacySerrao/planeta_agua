@@ -21,6 +21,14 @@ class ClienteFisico extends ActiveRecord{
 
         ];
     }
+    public function attributeLabels()
+    {
+        return[
+            'co_cpf'=> 'CPF',
+            'dt_nascimento'=> 'Data de Nascimento',
+            'co_rg'=> 'RG',
+        ];
+    }
     public function validarCPF($attribute){
         
         if(!empty($attribute)){

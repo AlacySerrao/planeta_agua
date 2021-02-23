@@ -13,7 +13,7 @@ use yii\widgets\ActiveForm;?>
         
        <div class="card-body"> <?=$form->field($model,'cpf',);?>
         
-        <?=$form->field($model,'no_cliente');?>
+        <?=$form->field($model,'nome');?>
         
         <?=$form->field($model,'cnpj');?>  
         

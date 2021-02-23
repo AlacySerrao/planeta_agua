@@ -33,25 +33,20 @@ class ClienteController extends Controller{
             }
         }
         
-        if($tipoCliente){
-            return $this->render('form',
+        
+            return $this->render('cadastrar',
             ['cliente'=>$model,
+            'fisico'=>$fisico,
             'juridico'=>$juridico,
             'contato'=>$contato,
             'endereco'=>$endereco,]);
-        }
-        else{
-            return $this->render('form',
-            ['cliente'=>$model,
-            'fisico'=>$fisico,
-            'contato'=>$contato,
-            'endereco'=>$endereco]); 
-        }
+        
+        
       
     }
     public function actionVisualizar($id){
         $model = $this->buscarModelo($id);
-        return $this->render('visualizar',['cliente'=>$model]);
+        return $this->render('tab',['cliente'=>$model]);
     }
     public function actionConsultar(){
         $seachModel = new ClienteSeach();
@@ -73,23 +68,25 @@ class ClienteController extends Controller{
                 $this->salvar($model,$fisico,$juridico, $endereco, $contato);
             
             }
-        }
-        if($fisico){
-            return $this->render('form',
+        }   
+            if (empty($fisico)){
+            $fisico = new ClienteFisico();
+            }
+
+            if (empty($juridico)){
+                $juridico = new ClienteJuridico;
+            }
+            if(empty($contato)){
+                $contato = new ClienteContato;
+            }
+            return $this->render('atualizar',
             ['cliente'=>$model, 
             'fisico'=>$fisico,
-            'contato'=>$contato,
-            'endereco'=>$endereco]);
-        }
-        else{
-            return $this->render('form',
-            ['cliente'=>$model, 
             'juridico'=>$juridico,
             'contato'=>$contato,
             'endereco'=>$endereco]);
-        }
-
         
+                
     }
     public function actionDeletar($id){
 
@@ -108,6 +105,10 @@ class ClienteController extends Controller{
     public function actionContato($id){
         $contact = ClienteContato::findAll($id);
         return $this->renderAjax('_contato',['contato'=>$contact]);
+    }
+    public function actionEndContato($id){
+        $cliente = $this->buscarModelo($id);
+        return $this->render('end_contato',['cliente'=>$cliente]);
     }
     private  function salvar($model,$fisico,$juridico,$endereco,$contato){
         $model->id_usuario_fk=1; // quem tá cadastrando

@@ -18,5 +18,13 @@ class ClienteContato extends ActiveRecord{
     public function getTipoContato(){
         return Lookup::items('contato');
     }
+    public function attributeLabels()
+    {
+        return[
+            'de_contato'=>'Contato',
+            'ic_tipo_contato'=>'Tipo de Contato',
+            'no_contato'=> 'PESSOA DE CONTATO'
+        ];
+    }
     
 }

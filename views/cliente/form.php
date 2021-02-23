@@ -5,128 +5,124 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use yii\jui\datePicker;
-
+if ($tipo == 'cadastrar'){
+    $radioList = Html::radioList('tipo_cliente',0,['0'=>'Cliente Físico','1'=>'Cliente Jurídico'],
+    ['id'=>'tipo_cliente','style'=>'color:#1E90FF','class'=>'disabled']);
+}
+else{
+    $radioList = '';
+}
+if(empty($fisico->co_cpf)){
+    $mostrar_fisico = 'style="display: none"';
+    $mostrar_juridico = '';
+}
+else{
+    $mostrar_juridico = 'style="display: none"';
+    $mostrar_fisico = '';
+}
 ?>
 
-<div class = "cliente-form"><?= Html::a('ClienteFisico',['cliente/cadastrar']) ?>
-    <?= Html::a('ClienteJuridico',['cliente/cadastrar/?tipoCliente=1']) ?>
- <div class = "row"> 
- 
- 
-<div class="col-md-6">
-    <div class="card card-primary">
-    <div class = "card-header">
-        <h3 class = "card-title"> Dados de Controle</h3>
-    </div> <!-- /. card-header -->
- 
-<?php $form = ActiveForm::begin();?>
-<?=$form->errorSummary($cliente); ?>
-    <div class = "card-body">
-
-    <?= $form->field($cliente,'no_cliente')->textInput(['style'=>'width: 100%;text-transform: uppercase;'])->error(false)->label('Nome');?>
-    <?= $form->field($cliente,'dt_cadastro')->widget(datePicker::class)->label('DATA CADASTRO')->error(false);?>
+<div class="cliente-form">
     
-    <?= $form->field($cliente,'ic_situacao_cadastral')->dropDownList(['0'=>'Inativo','1'=>'Ativo'])->label('Situação Cadastral')->error(false);?>
-    </div><!-- /. card-body-->
-    </div><!-- /. card card-primary -->
-</div> <!-- /.col-md-8 -->
-
-
-     <!--Cliente Fisico -->
-
-    <?php
-        if (isset($fisico)){
-            ?>
-    <div class="col-md-6">
-    <div class="card card-primary">
-    <div class = "card-header">
-        <h3 class = "card-title"> Dados de Pessoa Física</h3>
-    </div> <!-- /. card-header -->
-    <div class = "card-body">
-    <?php        
-            echo $form->field($fisico,'co_cpf')->textInput()->label('CPF')->error(false);
-            echo $form->field($fisico,'co_rg')->textInput()->label('RG')->error(false);
-            echo $form->field($fisico,'dt_nascimento')->textInput()->label('DATA NASCIMENTO')->error(false);
-       ?>
-      </div><!-- /. card-body-->
-    </div><!-- /. card card-primary -->
-</div> <!-- /.col-md-8 -->
-       <?php }
-    ?>
-
-      
+    <div class = "card card-default">
+ 
+        <?php $form = ActiveForm::begin(['fieldConfig'=>['labelOptions'=>['style'=>'color:#1E90FF']],
+        'errorSummaryCssClass'=>'alert alert-danger alert-dismissible',
+        'encodeErrorSummary'=>false
+        ]
+        );?>
+        <?= $form->errorSummary($cliente, ['header'=>'Por favor, corrija os seguintes erros:<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>', ]) ?>
+        
+        
+        <div class="card-body">
+            <div class="row">
+                
+                <div class="col-6"><?= $form->field($cliente,'no_cliente')->textInput(['style'=>'width: 100%;text-transform: uppercase;'])->error(false);?></div>
+                <div class="col-2"><?= $form->field($cliente,'ic_situacao_cadastral')->dropDownList(['0'=>'Inativo','1'=>'Ativo'])->error(false);?></div>
+                <div class="col-2"><?= $form->field($cliente,'dt_cadastro')->widget(datePicker::class)->error(false);?></div>
+            
+            </div><!--./row -->
+            <div class="row" style="text-align:center;">
+            <div class="col-6">
+            <?=$radioList?>
+            </div> 
+            </div>
+            <!--Cliente Fisico -->
+            <?php //if (isset($fisico)){ ?>
+            <div class="d_fisico" <?=$mostrar_fisico?>>
+                <div class="row">
+                    <div class="col-2"><?=$form->field($fisico,'co_cpf')->textInput()->error(false);?></div>
+                    <div class="col-2"><?=$form->field($fisico,'co_rg')->textInput()->error(false);?></div>
+                    <div class="col-2"><?=$form->field($fisico,'dt_nascimento')->textInput()->error(false);?></div>
+                </div>
+            </div>
+            <?php// }?>
+            
+            <!--Cliente Juridico -->
+            <?php // if(isset($juridico)){ ?>
+            <div class="d_juridico" <?=$mostrar_juridico?>>
+                <div class="row">
+                    <div class="col-6"><?=$form->field($juridico,'no_fantasia')->textInput()->error(false);?></div>
+                    <div class="col-2"><?=$form->field($juridico,'co_cnpj')->textInput()->error(false);?></div>
+                    <div class="col-2"><?=$form->field($juridico,'nu_ie_estadual')->textInput()->error(false);?></div>
+                    <div class="col-2"><?=$form->field($juridico,'nu_ie_municipal')->textInput()->error(false);?></div>
+                    <div class="col-2"><?=$form->field($juridico,'dt_abertura')->textInput()->error(false);?></div>
+                </div>
+            </div>
+            <?php // }?>
+            <!-- Dados de Contatos-->
+            <div class="row">
+                <div class="col-2"><?=$form->field($contato,'ic_tipo_contato')->dropDownList($contato->tipoContato);?></div>
+                <div class="col-2"><?=$form->field($contato,'de_contato')->textInput();?></div>
+            
+            </div>
+            <!-- Dados de Endereço -->
+            <div class="row">
+                <div class="col-2"><?=$form->field($endereco,'ic_tipo_endereco')->dropDownList($endereco->tipoEndereco,['prompt'=>'Selecione'])?></div>
+                <div class="col-6"><?=$form->field($endereco,'no_logradouro')->textInput()?></div>
+                <div class="col-1"><?=$form->field($endereco,'co_logradouro')->textInput()?></div><div class="col-2"><?=$form->field($endereco,'no_bairro')->textInput();?></div>
+                                
+            </div>
+            <div class="row">
+                <div class="col-2"><?=$form->field($endereco,'co_cep')->textInput()?></div>
+                <div class="col-2"><?=$form->field($endereco,'ic_zona')->dropDownList($endereco->listaZonas,['prompt'=>'Selecione sua zona']);?></div>
+                <div class="col-2"><?=$form->field($endereco,'no_cidade')->textInput()?></div>
+                <div class="col-2"><?=$form->field($endereco,'sg_uf')->dropDownList($endereco->listaEstados,['prompt'=>'Escolha Estado']);?></div>
+            </div>
+            
+           
+        </div><!--./card-body --> 
+        <div class="card-footer">
+         <?= Html::submitButton('Salvar', ['class' => 'btn btn-info']) ?>
+        
+        </div>   
     
-    <!--Cliente Juridico -->
-
-    <?php 
-        if(isset($juridico)){
-    ?>
-    <div class="col-md-6">
-    <div class="card card-primary">
-    <div class = "card-header">
-        <h3 class = "card-title"> Dados de Pessoa Juridica</h3>
-    </div> <!-- /. card-header -->
-    <div class = "card-body">
-    <?php
-           echo $form->field($juridico,'no_fantasia')->textInput()->label('NOME FANTASIA')->error(false);
-           echo $form->field($juridico,'co_cnpj')->textInput()->label('CNPJ')->error(false);
-           echo $form->field($juridico,'nu_ie_estadual')->textInput()->label('NÚMERO DE INSCRIÇÃO ESTADUAL')->error(false);
-           echo $form->field($juridico,'nu_ie_municipal')->textInput()->label('NÚMERO DE INSCRIÇÃO MUNICIPAL')->error(false);
-           echo $form->field($juridico,'dt_abertura')->textInput()->label('DATA DE ABERTURA')->error(false);
-        ?>
-        </div><!-- /. card-body-->
-        </div><!-- /. card card-primary -->
-        </div> <!-- /.col-md-8 -->
-      <?php  }
-    ?>
-</div>  <!-- /. row -->
-
-    <?=$form->field($contato,'ic_tipo_contato')->dropDownList($contato->tipoContato)->label('TIPO TELEFONE');?>
-    <?=$form->field($contato,'de_contato')->textInput()->label('TELEFONE');?>
-    <!-- Dados de Endereço -->
-    <div class="col-md-8">
-    <div class="card card-primary">
-    <div class = "card-header">
-        <h3 class = "card-title"> Dados de Endereço
-        </h3>
-    </div> <!-- /. card-header -->
-    <div class = "card-body">
-
-    <?=$form->field($endereco,'ic_tipo_endereco')->dropDownList($endereco->tipoEndereco,['prompt'=>'Selecione seu tipo endereço'])->label('TIPO DE ENDEREÇO');?>
-    <?=$form->field($endereco,'no_logradouro')->textInput()->label('LOGRADOURO');?>
-    <?=$form->field($endereco,'co_logradouro')->textInput()->label('CÓDIGO LOGRADOURO');?>
-    <?=$form->field($endereco,'no_bairro')->textInput()->label('BAIRRO');?>
-    <?=$form->field($endereco,'ic_zona')->dropDownList($endereco->listaZonas,['prompt'=>'Selecione sua zona'])->label('ZONA');?>
-    <?=$form->field($endereco,'sg_uf')->dropDownList($endereco->listaEstados,['prompt'=>'Escolha Estado'])->label('UF');?>
-    <?=$form->field($endereco,'no_cidade')->textInput()->label('CIDADE');?>
-
-    </div><!-- /. card-body-->
-        </div><!-- /. card card-primary -->
-        </div> <!-- /.col-md-8 -->
-     <!-- /. Dados de Endereço -->   
-    <?= Html::submitButton('Salvar', ['class' => 'btn btn-success']) ?>
-<?php ActiveForm::end();?>
+        <?php ActiveForm::end();?>
+    </div>
 </div>
-
-<!--
+<?php
 $js = <<< JS
-$(document).ready(function () {
-$(document.body).on("change", "#tipo_pessoa", function () {
 
-var val = $("#tipo_pessoa").val();
+$("input:radio[name=tipo_cliente]").on("change",function () {
+
+var val = $(this).val();
 
 
-if(val == "pf") {
-$(".PJuridico").hide();
-$(".PFisico").show();
-} else{
-$(".PJuridico").show();
-$(".PFisico").hide();
+if(val == 0) {
+    
+    $(".d_juridico").hide();
+    $(".d_fisico").show();
+} 
+else{
+    
+    $(".d_juridico").show();
+    $(".d_fisico").hide();
 
 } 
 });
-});      
+      
       
 JS;
 $this->registerJs($js);
- -->
+?>
+
