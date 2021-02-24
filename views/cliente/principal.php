@@ -16,6 +16,7 @@ Modal::begin([
 echo"<div id='modalconteudo'></div>";
 Modal::end();
 
+
 ?>
 <div class="card card-default">
     <div class="card-header">
@@ -31,7 +32,7 @@ Modal::end();
               <!-- /.info-box-content -->
             </div>   
             </div>
-            <div class="col-sm-6"><?=Html::a('Novo Cliente',['cliente/cadastrar'],['class'=>'modalButton btn btn-info']);?></div>
+            <div class="col-sm-6"><?=Html::a('Novo Cliente',['cliente/create'],['class'=>'btn btn-info']);?></div>
         
         </div>
         
@@ -63,7 +64,7 @@ Modal::end();
                 
                   <div class="input-group" style="width: 950px;">
                         <?=               
-                        $form->field($seachModel,'cpf')->label(false)->
+                        $form->field($seachModel,'busca')->label(false)->
                         textInput(['class'=>'form-control form-control-lg','placeholder'=>'Exibir/Buscar Cliente']);?>
                                                        
                     <div class="input-group-append">
@@ -72,6 +73,9 @@ Modal::end();
                         </button>
                     </div>
                     
+                    <div class="input-group-append">
+                        <?=HTML::a('<i class="fas fa-filter"></i>',['cliente/search'],['class'=>'btn btn-default modalButton']);?>
+                    </div>
                 </div>
             </div>
                 
@@ -177,28 +181,3 @@ Modal::end();
          
        </div>
 
-<?php
-$js = <<< JS
-    /*$('#modalbutton').click(    
-        function(){
-            $.get(
-                $(this).attr('href'), function(data){
-                    $('#modal').modal('show').find('#modalconteudo').html(data);
-                }
-            );
-        }
-    
-    );  */
-    $(function(){
-  
-  $('.modalButton').click(function (){
-      $.get($(this).attr('href'), function(data) {
-        $('#modal').modal('show').find('#modalconteudo').html(data)
-     });
-     return false;
-  });
-});    
-      
-JS;
-$this->registerJs($js);
-?>

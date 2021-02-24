@@ -21,9 +21,19 @@ class ClienteEndereco extends ActiveRecord{
             [['dt_usuario','ic_tipo_endereco'], 'safe'],
             [['ic_excluido'], 'boolean'],
             
-        ];
-        
-
+        ];       
+    }
+    public function attributeLabels()
+    {
+        return ['ic_tipo_endereco'=>'Tipo de endereço',
+                'no_logradouro'=>'Endereço',
+                'co_logradouro'=>'Número',
+                'no_bairro'=>'Bairro',
+                'ic_zona'=>'Zona',
+                'sg_uf'=>'UF',
+                'no_cidade'=>'Cidade',
+                'co_cep'=>'CEP'
+    ];
     }
     public function getListaEstados(){
         $estado = Uf::find()->orderBy(['de_uf'=>SORT_ASC])->all();

@@ -20,7 +20,10 @@ class Cliente extends ActiveRecord{
     public function attributeLabels()
     {
         return[
-            'no_cliente'=> 'NOME DO CLIENTE'
+            'no_cliente'=> 'Nome do cliente',
+            'ic_situacao_cadastral' => 'Status',
+            'dt_cadastro' => 'Data de cadastro',
+            
 
         ];
     }

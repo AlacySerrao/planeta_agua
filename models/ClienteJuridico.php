@@ -20,4 +20,14 @@ class ClienteJuridico extends ActiveRecord{
 
         ];
     }
+    public function attributeLabels()
+    {
+        return[
+            'co_cnpj'=>'CNPJ',
+            'dt_abertura'=>'Data de Abertura',
+            'no_fantasia'=>'Nome Fantasia',
+            'nu_ie_estadual'=>'Ins.Estadual',
+            'nu_ie_municipal'=>'Ins.Municipal'
+        ];
+    }
 }

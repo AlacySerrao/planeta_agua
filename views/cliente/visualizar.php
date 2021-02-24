@@ -1,4 +1,6 @@
-<?php $this->registerCss('body{background : #B0C4DE}')?>
+<?php $this->registerCss('body{background : #B0C4DE}');
+use yii\widgets\DetailView;
+?>
 <div>
     <div>NOME:<?=$cliente->no_cliente?></div>
     <div>DATA DE CADASTRO<?=$cliente->dt_cadastro?></div>
@@ -6,17 +8,25 @@
 </div>
 <?php
     if($cliente->clienteFisico){
-        echo $this->render('_fisico',['cliente' => $cliente]);
+         $this->render('_fisico',['cliente' => $cliente]);
         
     }
     if($cliente->clienteJuridico){
-        echo $this->render('_juridico',['cliente' => $cliente]);
+         $this->render('_juridico',['cliente' => $cliente]);
     
     }
     if($cliente->clienteContato){
-        echo $this->render('_contato',['contato' => $cliente->clienteContato]);
+         $this->render('_contato',['contato' => $cliente->clienteContato]);
     }
     if($cliente->clienteEndereco){
-        echo $this->render('_endereco',['cliente'=> $cliente]);
+         $this->render('_endereco',['cliente'=> $cliente]);
     }
+    
+            DetailView::widget(['model'=>$cliente,
+            'attributes'=>[
+                ['attribute'=>'no_cliente','value'=>$cliente->no_cliente],
+                ['attribute'=>'dt_cadastro','value'=>$cliente->dt_cadastro]
+            ]
+            ])
+    
 ?>    

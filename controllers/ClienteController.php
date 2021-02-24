@@ -1,6 +1,6 @@
 <?php
 namespace app\controllers;
-
+use yii\data\ActiveDataProvider;
 use app\models\Cliente;
 use Symfony\Component\BrowserKit\Client;
 use Yii;
@@ -14,44 +14,47 @@ use yii\web\NotFoundHttpException;
 
 class ClienteController extends Controller{
     
-    public function actionCadastrar($tipoCliente = null){
-        $model = new Cliente();// render('views',['array'=> $variavelmodel])
+    public function actionCreate(){
+        $cliente = new Cliente();// render('views',['array'=> $variavelmodel])
         $fisico = new ClienteFisico();
         $juridico = new ClienteJuridico();
         $contato = new ClienteContato();
         $endereco = new ClienteEndereco();
          
-        if ($model->load(Yii::$app->request->post())){// load(Carrega os dados para o post e salva)
-            
-            if(( ($fisico->validate()) || ($juridico->validate())) &&
-                 ($model->validate() && $endereco->validate() && $contato->validate())
-                 
-                ){
-                
-                $this->salvar($model,$fisico,$juridico,$endereco,$contato);
-            
+        //if ($cliente->load(Yii::$app->request->post())){// load(Carrega os dados para o post e salva)
+            $tipo = empty($_POST['ClienteFisico']['co_cpf'])?true:false;
+            if ($tipo){
+                if($fisico->validate() && $cliente->validate() && $endereco->validate() && $contato->validade()){
+                    echo'é cliente físico';
+                }
             }
-        }
+            else{
+                if($juridico->validate() && $cliente->validate() && $endereco->validate() && $contato->validade()){
+                    echo'é cliente juridico';
+                }
+            }
+            
+                    
+            
+        //}
         
-        if($tipoCliente){
-            return $this->render('form',
-            ['cliente'=>$model,
+        
+            return $this->render('cadastrar',
+            ['cliente'=>$cliente,
+            'fisico'=>$fisico,
             'juridico'=>$juridico,
             'contato'=>$contato,
             'endereco'=>$endereco,]);
-        }
-        else{
-            return $this->render('form',
-            ['cliente'=>$model,
-            'fisico'=>$fisico,
-            'contato'=>$contato,
-            'endereco'=>$endereco]); 
-        }
+        
+        
       
+    }
+    public function actionCfj(){
+        
     }
     public function actionVisualizar($id){
         $model = $this->buscarModelo($id);
-        return $this->render('visualizar',['cliente'=>$model]);
+        return $this->render('tab',['cliente'=>$model]);
     }
     public function actionConsultar(){
         $seachModel = new ClienteSeach();
@@ -73,23 +76,25 @@ class ClienteController extends Controller{
                 $this->salvar($model,$fisico,$juridico, $endereco, $contato);
             
             }
-        }
-        if($fisico){
-            return $this->render('form',
+        }   
+            if (empty($fisico)){
+            $fisico = new ClienteFisico();
+            }
+
+            if (empty($juridico)){
+                $juridico = new ClienteJuridico;
+            }
+            if(empty($contato)){
+                $contato = new ClienteContato;
+            }
+            return $this->render('atualizar',
             ['cliente'=>$model, 
             'fisico'=>$fisico,
-            'contato'=>$contato,
-            'endereco'=>$endereco]);
-        }
-        else{
-            return $this->render('form',
-            ['cliente'=>$model, 
             'juridico'=>$juridico,
             'contato'=>$contato,
             'endereco'=>$endereco]);
-        }
-
         
+                
     }
     public function actionDeletar($id){
 
@@ -108,6 +113,15 @@ class ClienteController extends Controller{
     public function actionContato($id){
         $contact = ClienteContato::findAll($id);
         return $this->renderAjax('_contato',['contato'=>$contact]);
+    }
+    public function actionEndContato($id){
+        $cliente = $this->buscarModelo($id);
+        $endereco = new  ActiveDataProvider(['query'=>ClienteEndereco::find()->
+        where(['id_cliente_fk'=>$id])->andWhere(['ic_excluido'=>false])]);
+
+        $contato = new ActiveDataProvider(['query'=>ClienteContato::find()->
+        where(['id_cliente_fk'=>$id])->andWhere(['ic_excluido'=>false])]);
+        return $this->render('end_contato',['cliente'=>$cliente,'endereco'=>$endereco,'contato'=>$contato]);
     }
     private  function salvar($model,$fisico,$juridico,$endereco,$contato){
         $model->id_usuario_fk=1; // quem tá cadastrando
