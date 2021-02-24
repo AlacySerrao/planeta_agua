@@ -21,7 +21,7 @@ class ClienteEnderecoController extends Controller
     {
         return [
             'verbs' => [
-                'class' => VerbFilter::className(),
+                'class' => VerbFilter::class,
                 'actions' => [
                     'delete' => ['POST'],
                 ],
@@ -62,17 +62,20 @@ class ClienteEnderecoController extends Controller
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
-    public function actionCreate()
+    public function actionCreate($id)
     {
         $model = new ClienteEndereco();
-
+        $model->id_cliente_fk = $id;
+        $model->id_usuario_fk =1;
+        $model->dt_usuario = date('Y-m-d');
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id_cliente_endereco]);
+            return $this->redirect(['cliente/end-contato', 'id' => $model->id_cliente_fk]);
         }
 
-        return $this->render('create', [
+        return $this->renderAjax('create', [
             'model' => $model,
         ]);
+        
     }
 
     /**
@@ -87,10 +90,10 @@ class ClienteEnderecoController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id_cliente_endereco]);
+            return $this->redirect(['cliente/end-contato', 'id' => $model->id_cliente_fk]);
         }
 
-        return $this->render('update', [
+        return $this->renderAjax('update', [
             'model' => $model,
         ]);
     }
@@ -104,9 +107,11 @@ class ClienteEnderecoController extends Controller
      */
     public function actionDelete($id)
     {
-        $this->findModel($id)->delete();
+        $model = $this->findModel($id);
+        $model->ic_excluido = true;
+        $model->save();
 
-        return $this->redirect(['index']);
+        return $this->redirect(['cliente/end-contato','id'=>$model->id_cliente_fk]);
     }
 
     /**

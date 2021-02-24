@@ -21,7 +21,7 @@ class ClienteContatoController extends Controller
     {
         return [
             'verbs' => [
-                'class' => VerbFilter::className(),
+                'class' => VerbFilter::class,
                 'actions' => [
                     'delete' => ['POST'],
                 ],
@@ -62,15 +62,15 @@ class ClienteContatoController extends Controller
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
-    public function actionCreate()
+    public function actionCreate($id)
     {
         $model = new ClienteContato();
-
+        $model->id_cliente_fk = $id;
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id_cliente_contato]);
+            return $this->redirect(['cliente/end-contato', 'id' => $model->id_cliente_fk]);
         }
 
-        return $this->render('create', [
+        return $this->renderAjax('create', [
             'model' => $model,
         ]);
     }
@@ -87,10 +87,10 @@ class ClienteContatoController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id_cliente_contato]);
+            return $this->redirect(['cliente/end-contato', 'id' => $model->id_cliente_fk]);
         }
 
-        return $this->render('update', [
+        return $this->renderAjax('update', [
             'model' => $model,
         ]);
     }
@@ -104,9 +104,12 @@ class ClienteContatoController extends Controller
      */
     public function actionDelete($id)
     {
-        $this->findModel($id)->delete();
+        $model = $this->findModel($id);
+        $model->ic_excluido = true;
+        $model->save();
 
-        return $this->redirect(['index']);
+
+        return $this->redirect(['cliente/end-contato','id'=>$model->id_cliente_fk]);
     }
 
     /**

@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\bootstrap4\Modal;
 Modal::begin([
-    'title' => 'Consultar Endereços',
+    
     'size' => 'modal-xl',
     'id' => 'modal'
 ]);
@@ -20,7 +20,7 @@ Modal::end();
                         <span class="info-box-icon bg-info"><i class="fas fa-users"></i></span>
 
                         <div class="info-box-content">
-                        <span class="product-description">CLIENTE</span>
+                        <span class="product-description"><?=$cliente->no_cliente?></span>
                 
                         </div>
                     </div><!-- /.info-box-content -->
@@ -43,7 +43,7 @@ Modal::end();
                 ],
                 [
                     'label'=>'Endereço e Contatos',
-                    'content'=>$this->render('_endereco',['cliente'=>$cliente]),
+                    'content'=>$this->render('_endereco',['cliente'=>$cliente,'endereco'=>$endereco,'contato'=>$contato]),
                     'active'=>true
                 ]
 

@@ -1,6 +1,6 @@
 <?php
 namespace app\controllers;
-
+use yii\data\ActiveDataProvider;
 use app\models\Cliente;
 use Symfony\Component\BrowserKit\Client;
 use Yii;
@@ -108,7 +108,12 @@ class ClienteController extends Controller{
     }
     public function actionEndContato($id){
         $cliente = $this->buscarModelo($id);
-        return $this->render('end_contato',['cliente'=>$cliente]);
+        $endereco = new  ActiveDataProvider(['query'=>ClienteEndereco::find()->
+        where(['id_cliente_fk'=>$id])->andWhere(['ic_excluido'=>false])]);
+
+        $contato = new ActiveDataProvider(['query'=>ClienteContato::find()->
+        where(['id_cliente_fk'=>$id])->andWhere(['ic_excluido'=>false])]);
+        return $this->render('end_contato',['cliente'=>$cliente,'endereco'=>$endereco,'contato'=>$contato]);
     }
     private  function salvar($model,$fisico,$juridico,$endereco,$contato){
         $model->id_usuario_fk=1; // quem tá cadastrando
