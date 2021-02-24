@@ -22,17 +22,6 @@ class ClienteController extends Controller{
         $endereco = new ClienteEndereco();
          
         //if ($cliente->load(Yii::$app->request->post())){// load(Carrega os dados para o post e salva)
-            $tipo = empty($_POST['ClienteFisico']['co_cpf'])?true:false;
-            if ($tipo){
-                if($fisico->validate() && $cliente->validate() && $endereco->validate() && $contato->validade()){
-                    echo'é cliente físico';
-                }
-            }
-            else{
-                if($juridico->validate() && $cliente->validate() && $endereco->validate() && $contato->validade()){
-                    echo'é cliente juridico';
-                }
-            }
             
                     
             
@@ -49,7 +38,13 @@ class ClienteController extends Controller{
         
       
     }
-    public function actionCfj(){
+    public function actionCfj($tipo){
+
+        if ($tipo =="fisico") {
+            $model = new ClienteFisico();
+        } else { $model = new ClienteJuridico();}
+        
+        return $this->render('form_fj',['model'=>$model,'tipo'=>$tipo]);
         
     }
     public function actionVisualizar($id){

@@ -6,7 +6,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use yii\jui\datePicker;
 if ($tipo == 'cadastrar'){
-    $radioList = Html::radioList('tipo_cliente',0,['0'=>'Cliente Físico','1'=>'Cliente Jurídico'],
+    $radioList = Html::radioList('tipo_cliente',0,['fisico'=>'Cliente Físico','juridico'=>'Cliente Jurídico'],
     ['id'=>'tipo_cliente','style'=>'color:#1E90FF','class'=>'disabled']);
 }
 else{
@@ -47,19 +47,12 @@ else{
             <?=$radioList?>
             </div> 
             </div>
-            <!--Cliente Fisico -->
-            <?php //if (isset($fisico)){ ?>
-            <div class="d_fisico" <?=$mostrar_fisico?>>
+ 
+            <div id="fj-content" >
+
                 
             </div>
-            <?php// }?>
-            
-            <!--Cliente Juridico -->
-            <?php // if(isset($juridico)){ ?>
-            <div class="d_juridico" <?=$mostrar_juridico?>>
-               
-            </div>
-            <?php // }?>
+           
             <!-- Dados de Contatos-->
             <div class="row">
                 <div class="col-2"><?=$form->field($contato,'ic_tipo_contato')->dropDownList($contato->tipoContato);?></div>
@@ -97,18 +90,21 @@ $("input:radio[name=tipo_cliente]").on("change",function () {
 
 var val = $(this).val();
 
+alert(val);
 
-if(val == 0) {
-    
-    $(".d_juridico").hide();
-    $(".d_fisico").show();
-} 
-else{
-    
-    $(".d_juridico").show();
-    $(".d_fisico").hide();
+$.ajax({
 
-} 
+type: "GET",
+url: 'http://localhost/planeta_agua/web/cliente/cfj',
+data: "tipo=" + val, 
+success: function(data) {
+      // data is ur summary
+     $('#fj-content').html(data);
+}
+});
+
+
+
 });
 $(document).ready(function(){
     $(".d_juridico").hide();
