@@ -32,7 +32,7 @@ Modal::end();
               <!-- /.info-box-content -->
             </div>   
             </div>
-            <div class="col-sm-6"><?=Html::a('Novo Cliente',['cliente/cadastrar'],['class'=>'btn btn-info']);?></div>
+            <div class="col-sm-6"><?=Html::a('Novo Cliente',['cliente/create'],['class'=>'btn btn-info']);?></div>
         
         </div>
         

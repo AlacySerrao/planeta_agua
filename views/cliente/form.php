@@ -31,7 +31,7 @@ else{
         'encodeErrorSummary'=>false
         ]
         );?>
-        <?= $form->errorSummary($cliente, ['header'=>'Por favor, corrija os seguintes erros:<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>', ]) ?>
+        <?php// $form->errorSummary($cliente, ['header'=>'Por favor, corrija os seguintes erros:<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>', ]) ?>
         
         
         <div class="card-body">
@@ -50,24 +50,14 @@ else{
             <!--Cliente Fisico -->
             <?php //if (isset($fisico)){ ?>
             <div class="d_fisico" <?=$mostrar_fisico?>>
-                <div class="row">
-                    <div class="col-2"><?=$form->field($fisico,'co_cpf')->textInput()->error(false);?></div>
-                    <div class="col-2"><?=$form->field($fisico,'co_rg')->textInput()->error(false);?></div>
-                    <div class="col-2"><?=$form->field($fisico,'dt_nascimento')->textInput()->error(false);?></div>
-                </div>
+                
             </div>
             <?php// }?>
             
             <!--Cliente Juridico -->
             <?php // if(isset($juridico)){ ?>
             <div class="d_juridico" <?=$mostrar_juridico?>>
-                <div class="row">
-                    <div class="col-6"><?=$form->field($juridico,'no_fantasia')->textInput()->error(false);?></div>
-                    <div class="col-2"><?=$form->field($juridico,'co_cnpj')->textInput()->error(false);?></div>
-                    <div class="col-2"><?=$form->field($juridico,'nu_ie_estadual')->textInput()->error(false);?></div>
-                    <div class="col-2"><?=$form->field($juridico,'nu_ie_municipal')->textInput()->error(false);?></div>
-                    <div class="col-2"><?=$form->field($juridico,'dt_abertura')->textInput()->error(false);?></div>
-                </div>
+               
             </div>
             <?php // }?>
             <!-- Dados de Contatos-->
@@ -120,7 +110,10 @@ else{
 
 } 
 });
-      
+$(document).ready(function(){
+    $(".d_juridico").hide();
+    $(".d_fisico").show();
+})      
       
 JS;
 $this->registerJs($js);
