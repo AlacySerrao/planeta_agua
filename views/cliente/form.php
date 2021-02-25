@@ -5,6 +5,7 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use yii\jui\datePicker;
+use yii\helpers\url;
 if ($tipo == 'cadastrar'){
     $radioList = Html::radioList('tipo_cliente',0,['fisico'=>'Cliente Físico','juridico'=>'Cliente Jurídico'],
     ['id'=>'tipo_cliente','style'=>'color:#1E90FF','class'=>'disabled']);
@@ -95,7 +96,7 @@ alert(val);
 $.ajax({
 
 type: "GET",
-url: 'http://localhost/planeta_agua/web/cliente/cfj',
+url: <?= Yii::$app->urlManager->createAbsoluteUrl('cliente/cfj')?>,
 data: "tipo=" + val, 
 success: function(data) {
       // data is ur summary
